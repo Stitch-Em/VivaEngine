@@ -26,7 +26,8 @@
 		},
 		{
 			"Name": "ReturnToParadise",
-			"Enabled": true
+			"Enabled": true,
+			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
 		},
 		{
 			"Name": "GeometryScripting",
