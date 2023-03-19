@@ -40,11 +40,11 @@
 			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
 		},
 		{
-			"Name": "GeometryScripting",
+			"Name": "Water",
 			"Enabled": true
 		},
 		{
-			"Name": "Water",
+			"Name": "GeometryScripting",
 			"Enabled": true
 		}
 	]

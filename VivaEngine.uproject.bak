@@ -1,0 +1,46 @@
+{
+    "FileVersion": 3,
+    "EngineAssociation": "5.1",
+    "Category": "",
+    "Description": "",
+    "Modules": [
+        {
+            "Name": "VivaEngine",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
+            "AdditionalDependencies": [
+                "Engine"
+            ]
+        }
+    "Plugins": [
+        {
+            "Name": "ModelingToolsEditorMode",
+            "Enabled": true,
+            "TargetAllowList": [
+                "Editor"
+            ]
+        },
+        {
+            "Name": "GameFeatures",
+            "Enabled": true
+        },
+        {
+            "Name": "ModularGameplay",
+            "Enabled": true
+        },
+        {
+            "Name": "MultiDraw",
+            "Enabled": true,
+            "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/657c763ab2e244edbcca955eb81d8377"
+        },
+        {
+            "Name": "ReturnToParadise",
+            "Enabled": true,
+            "MarketplaceURL": "https://discord.gg/6zBpKB4bza"
+        },
+        {
+            "Name": "Water",
+            "Enabled": true
+        }
+    ]
+}
