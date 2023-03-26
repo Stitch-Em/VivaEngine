@@ -35,17 +35,26 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/657c763ab2e244edbcca955eb81d8377"
 		},
 		{
-			"Name": "ReturnToParadise",
-			"Enabled": true,
-			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
-		},
-		{
 			"Name": "Water",
 			"Enabled": true
 		},
 		{
 			"Name": "GeometryScripting",
 			"Enabled": true
+		},
+		{
+			"Name": "TextureTools",
+			"Enabled": true,
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		},
+		{
+			"Name": "ReturnToParadise",
+			"Enabled": true,
+			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
 		}
 	]
 }
