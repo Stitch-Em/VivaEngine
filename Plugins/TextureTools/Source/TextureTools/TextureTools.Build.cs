@@ -25,8 +25,7 @@ public class TextureTools : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core",
-				 "UnrealEd", 
+				"Core", 
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
