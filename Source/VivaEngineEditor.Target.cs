@@ -10,6 +10,6 @@ public class VivaEngineEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-		ExtraModuleNames.AddRange( new string[] { "VivaEngine" } );
+		ExtraModuleNames.AddRange( new string[] { "VivaEngine"} );
 	}
 }

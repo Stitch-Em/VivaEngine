@@ -1,6 +1,14 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #include "VivaEngine.h"
-#include "Modules/ModuleManager.h"
+#include "AssetToolsModule.h" 
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, VivaEngine, "VivaEngine" );
+IMPLEMENT_PRIMARY_GAME_MODULE(FVivaEngineModule, VivaEngine, "VivaEngine");
+
+void FVivaEngineModule::StartupModule()
+{
+   
+}
+
+void FVivaEngineModule::ShutdownModule()
+{
+   
+}

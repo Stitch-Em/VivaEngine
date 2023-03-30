@@ -2,10 +2,10 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"FriendlyName": "TextureTools",
+	"FriendlyName": "ExtraAssets",
 	"Description": "",
 	"Category": "Other",
-	"CreatedBy": "SolarCookies",
+	"CreatedBy": "",
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
@@ -16,8 +16,13 @@
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "TextureTools",
+			"Name": "ExtraAssets",
 			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ExtraAssetsEditor",
+			"Type": "Editor",
 			"LoadingPhase": "Default"
 		}
 	]

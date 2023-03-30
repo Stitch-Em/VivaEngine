@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class TextureTools : ModuleRules
+public class ExtraAssetsEditor : ModuleRules
 {
-	public TextureTools(ReadOnlyTargetRules Target) : base(Target)
+	public ExtraAssetsEditor(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
@@ -25,7 +25,7 @@ public class TextureTools : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core", 
+				"Core",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -38,6 +38,10 @@ public class TextureTools : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+				"AssetTools",
+				"ExtraAssets",
+                "UnrealEd",
+                
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
