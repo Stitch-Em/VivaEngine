@@ -10,8 +10,7 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
-				"CoreUObject",
-				"UnrealEd"
+				"CoreUObject"
 			]
 		}
 	],
@@ -48,6 +47,15 @@
 			"Name": "ReturnToParadise",
 			"Enabled": true,
 			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
+		},
+		{
+			"Name": "VivaPinata",
+			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Windows",
+		"Android",
+		"HoloLens"
 	]
 }
