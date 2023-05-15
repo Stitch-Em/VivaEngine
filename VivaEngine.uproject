@@ -49,14 +49,6 @@
 			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
 		},
 		{
-			"Name": "VivaPinata",
-			"Enabled": true
-		},
-		{
-			"Name": "VivaEngine_VR",
-			"Enabled": true
-		},
-		{
 			"Name": "OpenXR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
