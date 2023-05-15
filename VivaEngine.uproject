@@ -51,6 +51,20 @@
 		{
 			"Name": "VivaPinata",
 			"Enabled": true
+		},
+		{
+			"Name": "VivaEngine_VR",
+			"Enabled": true
+		},
+		{
+			"Name": "OpenXR",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android",
+				"HoloLens"
+			]
 		}
 	],
 	"TargetPlatforms": [
