@@ -57,6 +57,14 @@
 				"Android",
 				"HoloLens"
 			]
+		},
+		{
+			"Name": "VivaPinata",
+			"Enabled": true
+		},
+		{
+			"Name": "VivaEngine_VR",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
