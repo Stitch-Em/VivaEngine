@@ -12,7 +12,7 @@ public class VivaEngine : ModuleRules
 
 		//PublicDependencyModuleNames.AddRange(new string[] { "GeometryProcessing" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
+		PrivateDependencyModuleNames.AddRange(new string[] { "ProceduralMeshComponent" });
 
         if (Target.bBuildEditor == true)
         {
