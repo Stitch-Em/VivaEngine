@@ -42,21 +42,23 @@ protected:
 		UMaterialInterface* Material;
 	UPROPERTY(EditAnywhere)
 		UCurveFloat* HeightCurve;
+	
 
 	UFUNCTION(BlueprintCallable, Category = "VivaEngine")
 	void Regenerate();
 	UFUNCTION(BlueprintCallable, Category = "VivaEngine")
 	void ChangeHeight(float X, float Y, float HeightMultiplier,float DistanceMulti, float Falloff);
-
+	UFUNCTION(BlueprintCallable, Category = "VivaEngine")
+	void CalculateNormals();
 
 public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
 	UProceduralMeshComponent* ProceduralMesh;
-	TArray<FVector> Vertices;
 	TArray<int> Triangles;
 	TArray<FVector2D> UV0;
+	TArray<FVector> Vertices;
 
 	void CreateVertices();
 	void CreateTriangles();
