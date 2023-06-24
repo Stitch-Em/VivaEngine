@@ -5,7 +5,7 @@
 			"app_key": "application.generated.ue.vivaengine-23901901.unrealeditor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
-			"action_manifest_path": "D:/Github/VivaEngine/Config/SteamVRBindings/steamvr_manifest.json",
+			"action_manifest_path": "F:/GitHub/VivaEngine/Config/SteamVRBindings/steamvr_manifest.json",
 			"strings":
 			{
 				"en_us":
