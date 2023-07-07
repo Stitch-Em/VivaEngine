@@ -1,0 +1,1438 @@
+{
+	"AssetInfoVersion": 2,
+	"ShaderCodeToAssets": [
+		{
+			"ShaderMapHash": "A821A200A9A1ACF2448D527CDEC9091BD90826AA",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/DebugEditorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "ECBFC710769E7C8506086ECCDCAA1AF3BE5517D3",
+			"Assets": [
+				"/ControlRig/Controls/ControlRigGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "280C3D31205D7AD93BF7ACB43C8140CCBC4FEECF",
+			"Assets": [
+				"/Engine/EditorMaterials/PhAT_NoCollisionMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "05ABD5B8476AA77665B45C4BF0B210BC2E437C64",
+			"Assets": [
+				"/Engine/EditorMaterials/PhAT_UnselectedMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "00E6336FCCEFEACCBD8D47AB0848ACD80040A391",
+			"Assets": [
+				"/MeshModelingToolset/Materials/M_DynamicMeshComponentVtxColor"
+			]
+		},
+		{
+			"ShaderMapHash": "1B9DB77A4B468913C8F9AF408C5999B28C74EB9C",
+			"Assets": [
+				"/Niagara/DefaultAssets/DefaultSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "AF53585A0EF3215926F98E488E3A273BE8E656E1",
+			"Assets": [
+				"/Game/StarterContent/Particles/Materials/m_flare_01"
+			]
+		},
+		{
+			"ShaderMapHash": "C3206583326989F55BA15AFEDE0AB124F4287E66",
+			"Assets": [
+				"/Game/VivaEngine/Core/Player/Cursor/VE_M_Cursor"
+			]
+		},
+		{
+			"ShaderMapHash": "5664E07CEBF134D936C3C120BAEA2D99988DDFE8",
+			"Assets": [
+				"/Engine/VREditor/Devices/Generic/GenericHMDMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "7CBD021928D0837723301F8052152D376CDFD6B9",
+			"Assets": [
+				"/Niagara/DefaultAssets/DefaultRIbbonMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A460B00ECBA02346D21B00CC8DCF2756029B09C5",
+			"Assets": [
+				"/Game/VRTemplate/Materials/DefaultRibbonMaterial_NoGradient"
+			]
+		},
+		{
+			"ShaderMapHash": "6018320A0ABDA5F2A0C3A2ABDBE71179F6224F68",
+			"Assets": [
+				"/Landmass/Landscape/Mats/Preview/LandscapePreview"
+			]
+		},
+		{
+			"ShaderMapHash": "5BA19896E99C681C665E726858509DC14D01AC78",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/Underwater/Meshes/Corals/RTP_Glowing"
+			]
+		},
+		{
+			"ShaderMapHash": "5CFEEA3ED5405FCE25DA96EA1A701BD2BB79B3C3",
+			"Assets": [
+				"/Game/VivaEngine/Core/Graphics/VE_MaskWithShadow"
+			]
+		},
+		{
+			"ShaderMapHash": "693E8BAA89DDFBDEA4BA050D5F8A901A09C9FA49",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultLightFunctionMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "5B2B8B1FCDA69027F9E780A7FE2A42F383FAF1AA",
+			"Assets": [
+				"/Interchange/Materials/UnlitMaterial",
+				"/Engine/EngineMaterials/RemoveSurfaceMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "9C938E3E3B2DE42B356EDBF058A2B2B5D3473F0A",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/M_SimpleUnlitTranslucent"
+			]
+		},
+		{
+			"ShaderMapHash": "546DC28B9CE0D1B49D368B6E477681DD249C87EB",
+			"Assets": [
+				"/Engine/EditorMaterials/Camera/CineMat"
+			]
+		},
+		{
+			"ShaderMapHash": "FEC386F1BD4B22E0BA3018D6FF1848987BEE1AF7",
+			"Assets": [
+				"/Game/VivaEngine/Core/Hud/StarMenu/VE_LeafShader"
+			]
+		},
+		{
+			"ShaderMapHash": "ED470A54428AB12FCA0209A83468D8B7DC2722AA",
+			"Assets": [
+				"/Engine/EngineMaterials/GizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "BC63854236D268C38E5A5F0973CECD6DC2A52134",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/DebugMeshMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "38E1C28FCE707B92BE175729B00E8D8F1E2D69A6",
+			"Assets": [
+				"/modio/UI/Materials/M_UI_NotificationSuccessBackground"
+			]
+		},
+		{
+			"ShaderMapHash": "1BCE767C75346689B38EF61DC5BA5E8B711D83DE",
+			"Assets": [
+				"/ControlRig/Controls/ControlRigXRayMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "EA1575726447FDE9A432DA13AE7D516B19F0C9DD",
+			"Assets": [
+				"/Water/Materials/WaterInfo/DrawWaterInfo"
+			]
+		},
+		{
+			"ShaderMapHash": "4C7B22392BD411EFB819BE20B013EDAC701B2D31",
+			"Assets": [
+				"/Engine/EditorLandscapeResources/SplineEditorMeshMat"
+			]
+		},
+		{
+			"ShaderMapHash": "1FCF4F16CF75BE0949019D3B782593EB0DF606B1",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/Xray"
+			]
+		},
+		{
+			"ShaderMapHash": "CB23E0267F8CB72EDF33305A9A40F656AA753B1E",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/Main"
+			]
+		},
+		{
+			"ShaderMapHash": "37FFC7007C37BB4B0CC57977CB8041940796F35A",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "CE9A281BACD3925803875E57A8A65CAFC732BB54",
+			"Assets": [
+				"/Engine/BasicShapes/BasicShapeMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "B3A21BBED757581730A61732AAE71E80D06F49A0",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Basic_Wall"
+			]
+		},
+		{
+			"ShaderMapHash": "B33EDC694CA5D0BCCB21146FB0D5B1C904BC0252",
+			"Assets": [
+				"/Game/VivaEngine/Core/Graphics/Fur/VE_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "090CECDBFD7E8EBBE870C7FF23D2120119CA498E",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/AttackItems/BloodPack/GayBlood"
+			]
+		},
+		{
+			"ShaderMapHash": "3FC34D6FA4AE0F3813645902E8263E5CB70BF509",
+			"Assets": [
+				"/ReturnToParadise/HUD/StarMenu/RTP_StarLeafShader"
+			]
+		},
+		{
+			"ShaderMapHash": "E85DFCDBD1651D9C71517A645F40269A1DA901E4",
+			"Assets": [
+				"/Game/VivaEngine/Core/VFX/Fire/VE_FireEmit1_System"
+			]
+		},
+		{
+			"ShaderMapHash": "9F88EFACEAA4B09C9624207DD8E43B68261DB661",
+			"Assets": [
+				"/Game/VivaEngine/Core/VFX/Fire/VE_FireEmit1_System"
+			]
+		},
+		{
+			"ShaderMapHash": "E5FECE52F93AF0565E72F369A2573AE8225FEEFA",
+			"Assets": [
+				"/ReturnToParadise/Assets/UITextures/HUD/RTP_iconExpPetal_Mat"
+			]
+		},
+		{
+			"ShaderMapHash": "E5BB2BCAA5F507FD82839CCB37365EB4D76AFC51",
+			"Assets": [
+				"/Game/VivaEngine/Core/VFX/VE_ConfettiGlow"
+			]
+		},
+		{
+			"ShaderMapHash": "BCBEEE7F4D6205A45F0F31C340352E9C1EC8EA5C",
+			"Assets": [
+				"/Game/StarterContent/Particles/Materials/M_smoke_subUV"
+			]
+		},
+		{
+			"ShaderMapHash": "7456017C7514EB94BDAA69DB394320E1D7527D71",
+			"Assets": [
+				"/Game/StarterContent/Particles/Materials/M_Burst"
+			]
+		},
+		{
+			"ShaderMapHash": "067955582112DA7FB2C3E477B53D66AD8F548FC1",
+			"Assets": [
+				"/Game/VivaEngine/Core/Hud/Tag/VE_Tag_Material"
+			]
+		},
+		{
+			"ShaderMapHash": "6BF296B43064033A07EFB2635EF45FBBC929B463",
+			"Assets": [
+				"/Game/StarterContent/Particles/Materials/M_radial_ramp"
+			]
+		},
+		{
+			"ShaderMapHash": "568D0B173BA722A9988792F11E7D23374B6D14E6",
+			"Assets": [
+				"/Game/StarterContent/Particles/Materials/M_explosion_subUV"
+			]
+		},
+		{
+			"ShaderMapHash": "636780A764B6AD21F17562304E80FA9E870512BA",
+			"Assets": [
+				"/Engine/EngineMaterials/FlattenMaterial_WS_Normal_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "9638E5007C615C04F59673D2E13A26220A50C270",
+			"Assets": [
+				"/Engine/EngineMaterials/FlattenMaterial_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "40EBE1FCFF1BC08C2270D7F04BEEB5E6A112AC32",
+			"Assets": [
+				"/Engine/EngineMaterials/M_InvalidLightmapSettings"
+			]
+		},
+		{
+			"ShaderMapHash": "5E9A1A43EF63EA2DDAF67F7EAC3924187AA2269A",
+			"Assets": [
+				"/modio/UI/Materials/M_UI_FakeCaret"
+			]
+		},
+		{
+			"ShaderMapHash": "7CE2D92FB51010E26803314E33649E45D203F3EF",
+			"Assets": [
+				"/Engine/EngineMaterials/EmissiveMeshMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "907D2B4DCFAB28CE291ABC2981DDE5C56E2818B4",
+			"Assets": [
+				"/modio/UI/Materials/M_UI_Background_RTP"
+			]
+		},
+		{
+			"ShaderMapHash": "26D535F11CE4596EED4FDC4879EF7B0B2128EA8B",
+			"Assets": [
+				"/modio/UI/Materials/M_UI_Background_Waves"
+			]
+		},
+		{
+			"ShaderMapHash": "C0641EA6FBB9D39C51C40BCF87DEA9BF2919A202",
+			"Assets": [
+				"/Engine/EngineMaterials/FlattenMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "482A451A5F897F03FC371092CD4B2BEAEABC3A82",
+			"Assets": [
+				"/Engine/EngineMaterials/PhAT_JointLimitMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "0D76944AB68A7459A264731115865E6C0E2EBDC7",
+			"Assets": [
+				"/Engine/EditorMaterials/WorldPartition/WorldPartitionSpatialHashGridPreviewMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "06320105DF3082F264F74B041CCDBBD920FA6774",
+			"Assets": [
+				"/OpenXR/Devices/M_XRController"
+			]
+		},
+		{
+			"ShaderMapHash": "37A03656098B716CAE7D24202AA7113A149E02E2",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP"
+			]
+		},
+		{
+			"ShaderMapHash": "0D159681B4904EE09EC3411784C7AA51332A4ADA",
+			"Assets": [
+				"/ControlRig/M_Manip"
+			]
+		},
+		{
+			"ShaderMapHash": "85128C5A2805044C98A7036CE1C04937433601EA",
+			"Assets": [
+				"/Paper2D/DefaultSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "DF1BF22ECF5BF0EFE210263C65A98E6FDE5195E1",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/TransformGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "05D168923B30A1B25289298A647E1C2CF7F27B21",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough",
+				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "0AC52FD0C660B3D23F78E4981D21101C77244322",
+			"Assets": [
+				"/Engine/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud"
+			]
+		},
+		{
+			"ShaderMapHash": "DC162584BC59F8565CF717C90C81A82DE6AC27DB",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultPostProcessMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A4648EF5A901263B8A32722507782E940044022D",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultDeferredDecalMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "CC036666A0BE13EABB024BBF225708E86B0D979D",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "4C398CFE32A576E58562EF3664E7863119EAA65A",
+			"Assets": [
+				"/Engine/EngineMaterials/WorldGridMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "61968942A7C863F574235BC82F7D98EE2BA00C4F",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultTextMaterialOpaque"
+			]
+		},
+		{
+			"ShaderMapHash": "07EDD93415F991975DECF8D383B41FA551CFF1C0",
+			"Assets": [
+				"/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale"
+			]
+		},
+		{
+			"ShaderMapHash": "C9007AA0190B78D25AA51BA2867F2B3701B121C2",
+			"Assets": [
+				"/Engine/EngineMaterials/PPM_DefaultCalibrationColor"
+			]
+		},
+		{
+			"ShaderMapHash": "D75D57E5943564ED710EC00CA9323F46E652BA09",
+			"Assets": [
+				"/Engine/EditorMaterials/PreviewShadowIndicatorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "ACA671BC9EE59C898BBC76AB33A334483C45CBC7",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Pinatas/SourMosquitoast/Fur"
+			]
+		},
+		{
+			"ShaderMapHash": "7C49319CE637819727CE4E987221260F48C79CC9",
+			"Assets": [
+				"/Interchange/Materials/PhongSurfaceMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "7CA0AF8281FC9E31687126CB6EF2973EA22AD81D",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Metal_Brushed_Nickel"
+			]
+		},
+		{
+			"ShaderMapHash": "199888DBE1D0F284B63A5D1F916B374902044917",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished"
+			]
+		},
+		{
+			"ShaderMapHash": "27D530383FFCB7114A1E60F8059966ED46EA3AD4",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/DreamscapeSeries/DreamscapeMeadows/Materials/Rocks/RockMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A8A02431837F619D42305570375FAF9CCCD84D32",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Wood_Oak"
+			]
+		},
+		{
+			"ShaderMapHash": "756DF3725D4B928D41A405A388051742C4AF5CB4",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Wood_Walnut"
+			]
+		},
+		{
+			"ShaderMapHash": "F5F6F4C33BC79B779466C53A8E558C228FFEC18B",
+			"Assets": [
+				"/ReturnToParadise/Assets/Buildings/Atlas/RTP_OBWall"
+			]
+		},
+		{
+			"ShaderMapHash": "78538DAC2B1E2C194C16239ECA2C3480C16EC76E",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/NPCs/Atlas/Screenshot_2023-05-28_183931_Mat"
+			]
+		},
+		{
+			"ShaderMapHash": "4ADA2C04BBB69461B4CE3340732B6BEA4CBB0BBF",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Pinatas/Afig/AfigRegular"
+			]
+		},
+		{
+			"ShaderMapHash": "D10E9DA4B4AEEEE4E5283DFAE6713654DF23E54E",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/Underwater/Materials/M_Base_2"
+			]
+		},
+		{
+			"ShaderMapHash": "6F61FA7F807D98FD57CCA4799726BF58790BF50E",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/DreamscapeSeries/SharedResources/Materials/Terrain/M_Terrain_Mesh"
+			]
+		},
+		{
+			"ShaderMapHash": "79B5E24147BBF7413BB9153A401EDD01BC6C5081",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/AttackItems/BloodPack/Plastic"
+			]
+		},
+		{
+			"ShaderMapHash": "52093B279EA0A23FFC7A72F745D2C8B4F0698AD1",
+			"Assets": [
+				"/Game/VivaEngine/Core/Graphics/Fur/VE_TEST_Fur"
+			]
+		},
+		{
+			"ShaderMapHash": "5FC90D20FC3420BB1DE3F0DAFA47DC1DE36DAFF7",
+			"Assets": [
+				"/modio/UI/Materials/Checkbox/M_UI_Checkbox_RoundedRect"
+			]
+		},
+		{
+			"ShaderMapHash": "DE7EE9483A3EBC15FA3A337DA071E979C8EB2A42",
+			"Assets": [
+				"/Paper2D/OpaqueUnlitSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "D163611A3E285A5B539AB237F3E2294F72DA14F4",
+			"Assets": [
+				"/modio/UI/Materials/M_UI_Circle"
+			]
+		},
+		{
+			"ShaderMapHash": "2B0A15C1228B39C757E46F63A0931F37BBB97CF1",
+			"Assets": [
+				"/modio/UI/Materials/M_UI_MSDF"
+			]
+		},
+		{
+			"ShaderMapHash": "BD96C9E9F9D8C78169B7D0C94049DDF75D9852F7",
+			"Assets": [
+				"/SpeedTreeImporter/SpeedTree9/SpeedTreeBillboardMaster"
+			]
+		},
+		{
+			"ShaderMapHash": "CF6E514C686A9DF5339ADD0115C732F6DA914D8E",
+			"Assets": [
+				"/SpeedTreeImporter/SpeedTree9/SpeedTreeMaster"
+			]
+		},
+		{
+			"ShaderMapHash": "04A93EA824EA1BE118FC2F302B09F1EA8564C513",
+			"Assets": [
+				"/OpenXR/Devices/ValveIndex/Right/MI_right_ValveIndex"
+			]
+		},
+		{
+			"ShaderMapHash": "A92C5676DE64F04D2A19EDE0E306E42B1E592F9E",
+			"Assets": [
+				"/OpenXR/Devices/ValveIndex/Left/MI_left_ValveIndex",
+				"/OpenXR/Devices/OculusTouch_v3/MI_OculusTouch_v3",
+				"/OpenXR/Devices/OculusTouch_v2/MI_OculusTouch_v2",
+				"/OpenXR/Devices/OculusTouch/MI_OculusTouch",
+				"/OpenXR/Devices/MicrosoftMixedReality/MI_MicrosoftMixedReality"
+			]
+		},
+		{
+			"ShaderMapHash": "2A242C4359F2952BDAF38A363744439E21009E42",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Masked"
+			]
+		},
+		{
+			"ShaderMapHash": "5171010E2E3C83E38840E5A1E009586E38771094",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque"
+			]
+		},
+		{
+			"ShaderMapHash": "60846630B9F55C3F2435A94D76718CA19D984436",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent"
+			]
+		},
+		{
+			"ShaderMapHash": "D284BD9250AE17CACA35092518BD4E5311CC1911",
+			"Assets": [
+				"/modio/UI/Materials/M_UI_NotificationBackground"
+			]
+		},
+		{
+			"ShaderMapHash": "4F996563565D9ABD67CDD827FAEEA88FF9A03FEF",
+			"Assets": [
+				"/Game/VivaEngine/Core/Graphics/Eyes/VE_EyeMat"
+			]
+		},
+		{
+			"ShaderMapHash": "2103C9BA5AB7A8A5B0271A0EC4D037A31168E9DA",
+			"Assets": [
+				"/modio/UI/Materials/M_UI_Preloader"
+			]
+		},
+		{
+			"ShaderMapHash": "4D31D00CBDB4142605D77249897E6E9504887E32",
+			"Assets": [
+				"/modio/UI/Materials/M_UI_BrokenImage"
+			]
+		},
+		{
+			"ShaderMapHash": "03163C9993F6FDB8824D5F4EF74B535AB49DB480",
+			"Assets": [
+				"/modio/UI/Materials/M_GlyphOverride_Scaled"
+			]
+		},
+		{
+			"ShaderMapHash": "7BA68043786CA45F0B1F0415E1539638195D088E",
+			"Assets": [
+				"/modio/UI/Materials/M_UI_MSDF_Scaled"
+			]
+		},
+		{
+			"ShaderMapHash": "9134BADEC7888B10C89858E7E1D423EC91527C20",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Pinatas/Eyes/RTP_Eye"
+			]
+		},
+		{
+			"ShaderMapHash": "E2216E689E0632AFF9A223C62B6E0EF1B05BD9F1",
+			"Assets": [
+				"/Game/VivaEngine/Core/Graphics/Object/VE_ObjectBase"
+			]
+		},
+		{
+			"ShaderMapHash": "FA90EABC10C2A8E6F735D70C3F402B6B82AF0362",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/StylizedProvencal/Materials/MM_WindTrails"
+			]
+		},
+		{
+			"ShaderMapHash": "41B6A9C28B83955472E6E090BE3AB4926CC4F3E2",
+			"Assets": [
+				"/Interchange/Materials/LambertSurfaceMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "2E4D9AB14CFF756E00959AA41DEEB2B783567550",
+			"Assets": [
+				"/Interchange/Materials/OrenNayerMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "4EAB56590B0CE88FDF584188E4C925EBCE62B875",
+			"Assets": [
+				"/Game/VivaEngine/Core/Graphics/MasterShaders/VE_MasterMaterial",
+				"/ReturnToParadise/Assets/Models/Decor/SunOnAStick/sunonstickMat1",
+				"/ReturnToParadise/Assets/Models/Decor/FirePlace/RTP_FireplaceMat1",
+				"/ReturnToParadise/Assets/Models/Decor/Log/RTP_LogMat1"
+			]
+		},
+		{
+			"ShaderMapHash": "60C3C358381CD7F4EDDD502C450B6E8F54D9F0C7",
+			"Assets": [
+				"/Game/VivaEngine/Core/LandscapeStuff/VE_GroundShader"
+			]
+		},
+		{
+			"ShaderMapHash": "4F4FAAFF67AC8D6E538ACE2885910A5E2D5B0DDD",
+			"Assets": [
+				"/ReturnToParadise/Graphics/Landscape/RTP_GroundShader"
+			]
+		},
+		{
+			"ShaderMapHash": "ADE55B422BEB20245526A902C813A62C0DD4FDDD",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Tile/Disco/Disco"
+			]
+		},
+		{
+			"ShaderMapHash": "6F2A1C4449B2E5FED6B46C54618069A83CE742A3",
+			"Assets": [
+				"/ReturnToParadise/Graphics/Landscape/RTP_GroundShader2"
+			]
+		},
+		{
+			"ShaderMapHash": "4D7095182D4C829E9E8C7BB9BAC01C8CA6236559",
+			"Assets": [
+				"/ReturnToParadise/Graphics/Landscape/RTP_GroundShader2"
+			]
+		},
+		{
+			"ShaderMapHash": "74B8493A70B6DFD97DF402D0840E5D0CB8579178",
+			"Assets": [
+				"/ReturnToParadise/Graphics/Landscape/RTP_GroundShader2"
+			]
+		},
+		{
+			"ShaderMapHash": "BCB49C39B8E6906D685C103A2E1EC0951510A65F",
+			"Assets": [
+				"/ReturnToParadise/Graphics/Landscape/RTP_GroundShaderOcean"
+			]
+		},
+		{
+			"ShaderMapHash": "CB044377EF9C7D467C0F90A910CE31C40AB6D873",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Masked_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "9D137EE4AA1B59EB17236916BE6B780CD521BEBF",
+			"Assets": [
+				"/Game/Characters/MannequinsXR/Materials/M_Mannequin",
+				"/Game/Characters/MannequinsXR/Materials/Instances/Manny/MI_Manny_01"
+			]
+		},
+		{
+			"ShaderMapHash": "FAB3E6F4379A67043595431673B631EE2BDA7BFE",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "3D908A352F29C3331A42691BB45C19FB4ED6C891",
+			"Assets": [
+				"/modio/UI/Materials/M_UI_Border_RoundedRect"
+			]
+		},
+		{
+			"ShaderMapHash": "0FC6BA05327407F150136FD4F9B7601971264617",
+			"Assets": [
+				"/Water/Materials/PostProcessing/M_UnderWater_PostProcess_Volume"
+			]
+		},
+		{
+			"ShaderMapHash": "C6E16CE01C7D0EDC1DD320067DF541FE026CD12E",
+			"Assets": [
+				"/Interchange/Materials/SubsurfaceMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A0CA3DD55E56B5ECC111B6571684B7BEEBDD6BBB",
+			"Assets": [
+				"/Interchange/Materials/ThinTranslucentMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "0F5F9B5BB06CE17AB516B02DA364D6D71BEE4BE4",
+			"Assets": [
+				"/Interchange/gltf/M_Unlit"
+			]
+		},
+		{
+			"ShaderMapHash": "FEAF0CD6EF746C81860D73DEE173EDB1748ABFF1",
+			"Assets": [
+				"/Interchange/Materials/SheenMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "7A54725FB7BE52357C23A950C53C9B0151FDE051",
+			"Assets": [
+				"/Interchange/Materials/PBRSurfaceMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "89C9342C354F45E5BBB8D3189E410AA7E30356B6",
+			"Assets": [
+				"/Interchange/Materials/ClearCoatMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "FE92A9E381F466FC37351DC07E4F92CE7033C135",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Candy/Regular/RTP_RegularCandyMat",
+				"/ReturnToParadise/Assets/Models/Decor/FirePlace/RTP_FireplaceMat"
+			]
+		},
+		{
+			"ShaderMapHash": "12BE73A01A41DBDC323A6B56FAC6E4FC70C24CBE",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/DreamscapeSeries/SharedResources/Materials/Foliage/M_Tree_GlobalWind_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "3765E67BF5F90CE4C0A76834A8C09B481CA0D10A",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Decor/Pillow/Pillowcase_Mat2",
+				"/ReturnToParadise/Assets/Models/AttackItems/BloodPack/Material_002"
+			]
+		},
+		{
+			"ShaderMapHash": "514006928C4E51424D626DD8EB6C79F60450122F",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Fruit/Lemon/LeafMat"
+			]
+		},
+		{
+			"ShaderMapHash": "F63DC273DF2599FD757949E29AA190E71188D372",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Fruit/Lemon/LemonMat"
+			]
+		},
+		{
+			"ShaderMapHash": "7879243B92DD39B71F8FE00480ED2B82B7BD2958",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Fruit/Lime/Material"
+			]
+		},
+		{
+			"ShaderMapHash": "FF5BCF0E8916122ED42CFF26576E4C31F3183665",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Fruit/Peach/RTP_PeachMat",
+				"/ReturnToParadise/Assets/Models/Veggie/Tomato/RTP_TomatoMat1",
+				"/ReturnToParadise/Assets/Models/Veggie/Potato/PotatoMat"
+			]
+		},
+		{
+			"ShaderMapHash": "379A133465EE7330D0F7A26A929730F4B61FF53E",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Fruit/Pear/Material_001"
+			]
+		},
+		{
+			"ShaderMapHash": "08CF667415328A7921AD5F08B97F95EB4494592B",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/NPCs/Atlas/Mask/VE_MasterMaterial_Inst"
+			]
+		},
+		{
+			"ShaderMapHash": "C78C9B85A4A858866B6FAFB5CA003E5D5D4D9418",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Tile/Disco/Material_002"
+			]
+		},
+		{
+			"ShaderMapHash": "446AD34554A2253A1163780537EE8DCFEDBA84B8",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Plants/Pansy/pansy_stem_mtrl"
+			]
+		},
+		{
+			"ShaderMapHash": "0A753DE883A29CE01D96CCDEFA45BC6D1FBAAE60",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Buildings/Taffly/TaffieHouseMat1"
+			]
+		},
+		{
+			"ShaderMapHash": "5CC625FBA91FFB155F69C7936D969F766B36BC4F",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Candy/Heart/Romance_Cady_Mat1",
+				"/ReturnToParadise/Assets/Models/Candy/Sour/RTP_Candy_SourMat"
+			]
+		},
+		{
+			"ShaderMapHash": "A639617F089BA38D42C6C0AA78072FE42308FB23",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Decor/Log/RTP_LogMat"
+			]
+		},
+		{
+			"ShaderMapHash": "96D9C585744D0B5E27AAB0076E2246E04F16F15F",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Decor/Sign/sign_front_texture",
+				"/ReturnToParadise/Assets/Models/Decor/Sign/veggie_sign_wood"
+			]
+		},
+		{
+			"ShaderMapHash": "8849A4250E00F7389D0AB79EA043FEC7EA62AD75",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Decor/SunOnAStick/sunonstickMat"
+			]
+		},
+		{
+			"ShaderMapHash": "F368EAA049CA18BEFF5F96863B44BE94D109F14B",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Decor/Telescope/TelescopeMat3"
+			]
+		},
+		{
+			"ShaderMapHash": "283668647B305B29C1C524A0847F8932A2A97755",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/FlowerHeads/Pansy/Flowerbud_TXTR"
+			]
+		},
+		{
+			"ShaderMapHash": "43B628C56D891AECC86D0FBDA8ADDC992B11C270",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/FlowerHeads/Pansy/Pansy_TXTR"
+			]
+		},
+		{
+			"ShaderMapHash": "C615BF01C9D53E079E03909DDE4467C5202BDEE3",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/DreamscapeSeries/SharedResources/Materials/Stones/M_RockDetail_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "39532B9E0C2A06C09536F6A9A4FBDB219199ABE3",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/DreamscapeSeries/SharedResources/Materials/Props/M_Props_Master"
+			]
+		},
+		{
+			"ShaderMapHash": "9CF570F050072A07CBE6A9D3838E39F06C87871E",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Tile/Disco/Disco_RedLight"
+			]
+		},
+		{
+			"ShaderMapHash": "9AFEC3CC008B38C9210C071FAFDB9F369F0A3790",
+			"Assets": [
+				"/ReturnToParadise/Assets/Models/Tile/Disco/Disco_RedSolid"
+			]
+		},
+		{
+			"ShaderMapHash": "7264ED8D2FE441909F2BA9325B35D3D61452674B",
+			"Assets": [
+				"/Interchange/gltf/M_Transmission"
+			]
+		},
+		{
+			"ShaderMapHash": "996AF20EC66E6E6C03781F7248B377B93F62BD41",
+			"Assets": [
+				"/Interchange/gltf/M_Sheen"
+			]
+		},
+		{
+			"ShaderMapHash": "28B80511EC107E6836C0E72046395C7828092D00",
+			"Assets": [
+				"/Interchange/gltf/M_Translucent"
+			]
+		},
+		{
+			"ShaderMapHash": "B7E031CE08503C4A179A916F48974E9812E9E872",
+			"Assets": [
+				"/Interchange/gltf/M_Opaque"
+			]
+		},
+		{
+			"ShaderMapHash": "26109D6013B7EC59347BA51666307A8FE6B9116A",
+			"Assets": [
+				"/ReturnToParadise/Graphics/MudWater"
+			]
+		},
+		{
+			"ShaderMapHash": "938BEB5B975F2E2B711E0611B7DA84C38BC0EF21",
+			"Assets": [
+				"/Water/Materials/WaterSurface/Water_Material",
+				"/Water/Materials/WaterSurface/Water_Material_Inst"
+			]
+		},
+		{
+			"ShaderMapHash": "105FF093B69303C88D3A1004C40CAF6A56D3EC17",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/DreamscapeSeries/DreamscapeMeadows/Materials/Trees/MI_Bush_01"
+			]
+		},
+		{
+			"ShaderMapHash": "63EAFB8EC20E3BA22CA365B4595824686CA40641",
+			"Assets": [
+				"/modio/UI/Materials/M_UI_RoundedRectangle_Base"
+			]
+		},
+		{
+			"ShaderMapHash": "1EAE0CB1B60A57A8EE015607FF0A4F85FDE37B9A",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_MR/MI_Opaque_Unlit_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "1134DF0C97D764B4A6504DD61BBFD0912E166590",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/DreamscapeSeries/DreamscapeMeadows/Materials/Trees/MI_Bark_Bush"
+			]
+		},
+		{
+			"ShaderMapHash": "2BF1E7A2B927CB501D04E90A091BC1B29D595827",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/CartoonSkyShader/Materials/CartoonSky/M_CartoonSky"
+			]
+		},
+		{
+			"ShaderMapHash": "F1E05B2137DECB6E34ABFDCCD39EDBB3DE86607D",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/DreamscapeSeries/DreamscapeMeadows/Materials/Rocks/MI_RuneRock_02"
+			]
+		},
+		{
+			"ShaderMapHash": "140DAC3330FAA3D17793B2C29278AB9EDD2BB88D",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/DreamscapeSeries/DreamscapeMeadows/Materials/Rocks/MI_RockFormation_02"
+			]
+		},
+		{
+			"ShaderMapHash": "010070D17366E3BDC716228AAD1C1BE4D82E5709",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Transmission_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "985B994371EA6E65FD8482F70D7129F7659B48FF",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Transmission"
+			]
+		},
+		{
+			"ShaderMapHash": "6E3B6ECE0B9644313F7778BB26D3036D26EC9676",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_MR/MI_Transmission_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "19E61BE840146F2761C09241161572DE634CC280",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Opaque_Sheen_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "ABDF61F0030A184E2766A9438644875268020400",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Opaque_Sheen"
+			]
+		},
+		{
+			"ShaderMapHash": "25750D87E6CA230D796F6C0BD715DA30F731422C",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_MR/MI_Opaque_Sheen_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "AF939D0FAC3421B82E6A495C642CA3A5C90ED00D",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Translucent_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "D15B8A3227C7BFD2371458A7F674296110FB4E43",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Translucent_ClearCoat_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "5B6B2CC97A558067DE60AC0FE9AACA4A399E4901",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Translucent_ClearCoat"
+			]
+		},
+		{
+			"ShaderMapHash": "40CB04AA708CBA0FADD7644E868AA5143CCB726E",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_MR/MI_Translucent_ClearCoat_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "4B95B8B80A8B8C62DBF44D1EA61BB629CAFB8263",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_MR/MI_Translucent_ClearCoat"
+			]
+		},
+		{
+			"ShaderMapHash": "8816027763EA09BEC0730565B674E2DED68FCECA",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Translucent"
+			]
+		},
+		{
+			"ShaderMapHash": "CF936D087A510976BFD5D103E4F2672E0A391844",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_MR/MI_Translucent_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "60DFCC5DB222AFEE22C9BECE5BAD321CEC070361",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Opaque_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "FF59C2952E50ABB81EC725EE068761D081839C94",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Opaque_ClearCoat_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "EF75838782637E10707760F4E99122E3EBFFD4F6",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_MR/MI_Opaque_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "702BA191EB380A97BF42862E2136BBBF160BDAF7",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_MR/MI_Opaque_ClearCoat_TS"
+			]
+		},
+		{
+			"ShaderMapHash": "16134F658E9EF7C4D5E058066BF568FF54ED0A70",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Opaque_ClearCoat"
+			]
+		},
+		{
+			"ShaderMapHash": "77CFD63385AF454BA0FAB2340CABB947575B9934",
+			"Assets": [
+				"/Water/Materials/WaterSurface/Water_FarMesh",
+				"/ReturnToParadise/Graphics/SwampWaterH",
+				"/Water/Materials/HLOD/HLODWater"
+			]
+		},
+		{
+			"ShaderMapHash": "040A97F89844E4F1736CF9FDF9971D5B81DC3435",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_MR/MI_Opaque_ClearCoat"
+			]
+		},
+		{
+			"ShaderMapHash": "FD3CED3E8037F8519EB02447176367BEB97688B2",
+			"Assets": [
+				"/Interchange/gltf/MaterialInstances_SG/MI_Opaque"
+			]
+		},
+		{
+			"ShaderMapHash": "78FECBAFF7A60703CF5496C6D55CD4FCD7C4341C",
+			"Assets": [
+				"/Game/Characters/MannequinsXR/Materials/Instances/Manny/MI_Manny_02"
+			]
+		},
+		{
+			"ShaderMapHash": "2EFAA38CF2C8BCB82492162BC55CA3FC9D572491",
+			"Assets": [
+				"/DatasmithContent/Materials/Water/M_Water",
+				"/DatasmithContent/Materials/Water/MI_Pool_01"
+			]
+		},
+		{
+			"ShaderMapHash": "1CA49FB5FBDE351A97A68D4427C504F4670FD23D",
+			"Assets": [
+				"/Game/GeoGrass/Materials/Grass/GS_M_Grass"
+			]
+		},
+		{
+			"ShaderMapHash": "872E788AE5495630864B446A466594143AE2F7E2",
+			"Assets": [
+				"/Game/VivaEngine/Core/Graphics/M_UnderWater_PostProcess_Volume"
+			]
+		},
+		{
+			"ShaderMapHash": "9864699B5E32B60C81F7ACB8CEC715D6170F71BE",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/CartoonSkyShader/Materials/CartoonSkyInstances/MI_CartoonSky_Type_1_Low_Detail"
+			]
+		},
+		{
+			"ShaderMapHash": "BBD541547A264CF9A548BF2F316B8B391D5EA6C6",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/CartoonSkyShader/Materials/CartoonSkyInstances/MI_CartoonSky_Type_2_Low_Detail",
+				"/ReturnToParadise/BoughtAssets/CartoonSkyShader/Materials/CartoonSkyInstances/MI_CartoonSky_Type_4_Low_Detail"
+			]
+		},
+		{
+			"ShaderMapHash": "DC0C9DE4CF76314119AA1BEB6467C58D10D81EB5",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/CartoonSkyShader/Materials/CartoonSkyInstances/MI_CartoonSky_Type_3_High_Detail"
+			]
+		},
+		{
+			"ShaderMapHash": "041794E471FB088960E5BE38947A1EE61031040B",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/CartoonSkyShader/Materials/CartoonSkyInstances/MI_CartoonSky_Type_3_Low_Detail"
+			]
+		},
+		{
+			"ShaderMapHash": "E47ED8A48CEEE41FABFD0F5BE3D9DA35731F87B7",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/CartoonSkyShader/Materials/CartoonSkyInstances/MI_CartoonSky_Type_1_High_Detail",
+				"/ReturnToParadise/BoughtAssets/CartoonSkyShader/Materials/CartoonSkyInstances/MI_CartoonSky_Type_2_High_Detail",
+				"/ReturnToParadise/BoughtAssets/CartoonSkyShader/Materials/CartoonSkyInstances/MI_CartoonSky_Type_4_High_Detail"
+			]
+		},
+		{
+			"ShaderMapHash": "D98531CC7B5029AA07FFC6488812F1C95CD3531B",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/CartoonSkyShader/Materials/CartoonSkyInstances/MI_CartoonSky_Type_5_High_Detail"
+			]
+		},
+		{
+			"ShaderMapHash": "7DB7D01790835C7140A8952C9CA4B6DC0CE794E5",
+			"Assets": [
+				"/ReturnToParadise/BoughtAssets/CartoonSkyShader/Materials/CartoonSkyInstances/MI_CartoonSky_Type_5_Low_Detail"
+			]
+		},
+		{
+			"ShaderMapHash": "8F418B9722BF25A25C6E22F8080D2B9FA90FE019",
+			"Assets": [
+				"/Game/VivaEngine/Core/Graphics/Water_Material_OceanVE"
+			]
+		},
+		{
+			"ShaderMapHash": "E0747BD367288587A7E9428370F3E128DB75297F",
+			"Assets": [
+				"/Landmass/Landscape/BlueprintBrushes/Materials/LandmassBrush_Angle"
+			]
+		},
+		{
+			"ShaderMapHash": "BCF6F221438378ECE1B728462BA1C5B8FD1F3352",
+			"Assets": [
+				"/Landmass/Landscape/BlueprintBrushes/Materials/LandmassBrush_Weightmap"
+			]
+		},
+		{
+			"ShaderMapHash": "814AD0E2961F406C39C15F444EE47DA22655ABA0",
+			"Assets": [
+				"/Landmass/Landscape/BlueprintBrushes/Materials/CacheDistanceField_RG8"
+			]
+		},
+		{
+			"ShaderMapHash": "DF2292B82A5010BE4ABC35D097B437DDE01CB317",
+			"Assets": [
+				"/Landmass/Landscape/BlueprintBrushes/Materials/CacheDistanceField"
+			]
+		},
+		{
+			"ShaderMapHash": "4BCD8FCBF3E9C72A8D9F92E8DB03963E48DEB0F2",
+			"Assets": [
+				"/Water/Materials/Brushes/MeshBrush_Angle"
+			]
+		},
+		{
+			"ShaderMapHash": "21DC3973A1834854D1484D3ED6E5F398C07F6B2C",
+			"Assets": [
+				"/Landmass/Landscape/BlueprintBrushes/Materials/LandmassBrush_Width"
+			]
+		},
+		{
+			"ShaderMapHash": "3826AEFE013C90F32F35CD243AD7E58BA4FF5468",
+			"Assets": [
+				"/Water/Materials/Brushes/MeshBrush_Width"
+			]
+		},
+		{
+			"ShaderMapHash": "2698289F52BE82485769600824DE29A763606307",
+			"Assets": [
+				"/Landmass/Landscape/BlueprintBrushes/Materials/Debug/DebugDrawing_CustomBrush"
+			]
+		},
+		{
+			"ShaderMapHash": "F6658839FDE0990CA6D4CAFA1BFDE5D1B2F91119",
+			"Assets": [
+				"/Water/Materials/Brushes/CompositeWaterBodyTexture"
+			]
+		},
+		{
+			"ShaderMapHash": "8C970B6DD3B2318DD2A4FCE74B8F292414C4E76A",
+			"Assets": [
+				"/Water/Materials/Brushes/MeshBrush_Island"
+			]
+		},
+		{
+			"ShaderMapHash": "D19684730BF7C7B14D2188E52F9908160844CFF9",
+			"Assets": [
+				"/Water/Materials/Brushes/MeshBrush_Weightmap"
+			]
+		},
+		{
+			"ShaderMapHash": "6B86BD98F21F4DA2F19122F49E118DEF65F20C3E",
+			"Assets": [
+				"/Landmass/DistanceFields/Materials/BlurEdges"
+			]
+		},
+		{
+			"ShaderMapHash": "F252736BE47A0E88D35B3B2F62BCB51CA2A84522",
+			"Assets": [
+				"/Landmass/DistanceFields/Materials/DetectEdges"
+			]
+		},
+		{
+			"ShaderMapHash": "239ADBACB4F675011E9BCC1344B8BEFD3822FFF6",
+			"Assets": [
+				"/Landmass/DistanceFields/Materials/JumpFloodStep"
+			]
+		},
+		{
+			"ShaderMapHash": "48B7993F695CDA80E4598BA847EA918D4E8C89DD",
+			"Assets": [
+				"/Landmass/PreviewContent/Water/Mats/M_Simple_River_01"
+			]
+		},
+		{
+			"ShaderMapHash": "1FBCF17511808AD8EDC2C3F7F4F33D5B2783D7EF",
+			"Assets": [
+				"/Landmass/Landscape/BlueprintBrushes/Materials/M_SimpleBrush"
+			]
+		},
+		{
+			"ShaderMapHash": "717727BD372E4A4941AD18917242289DD8D3731C",
+			"Assets": [
+				"/Landmass/Landscape/BlueprintBrushes/Materials/CopyRT"
+			]
+		},
+		{
+			"ShaderMapHash": "20DC5073A20A84A9FEC0D5FE175D2F2C42EF8FA3",
+			"Assets": [
+				"/Landmass/Landscape/BlueprintBrushes/Materials/RenderSplineDepths"
+			]
+		},
+		{
+			"ShaderMapHash": "EC364D6CA3C1C789C1641D0D8BD9638DAF7EBED5",
+			"Assets": [
+				"/Landmass/Landscape/Mats/Debug/Intersections"
+			]
+		},
+		{
+			"ShaderMapHash": "433EA6DF1F0EFF31C5B3DC721525CA7AFC51BB29",
+			"Assets": [
+				"/Water/Materials/Brushes/CanvasDrawing"
+			]
+		},
+		{
+			"ShaderMapHash": "CD6081682009FCF2352B7AA33B299A2F0EA355FA",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "4F05F978A9F9DC50265EB9F3D6218D3B92A42963",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "DD6B824CB4737DC0D4920BBE7D0224728249AAB8",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "6E1C4E24BC3F35582A395F75C35120E0B16987E8",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "33704B057AF44A17173267E7AE2BBDBE705564E6",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "7ADD27D546D0D101E4693B9DD846B9EFA2FF233C",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "DBF4B4B9819BC477A736563A4CF568DCAB21E533",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "7C2EB894884E534953AD7DE0A492E63E55B91BD3",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "8CA13F5118C064CA0C19FBF84F17D32003BE1E1C",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "43D3AB238515766ABA55CD339636600E637CF72A",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "0436DEB8CD7534336A08A8652998F5FE575FF45B",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "B71C1578CDCBB03B8EC14AC20A864B4A86A8BD15",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "A88FC352B771E2A99E31D0E086DD3FA82FFA4306",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "4BA5BB14D697D57E3473BB58033FBBEB2EF392EB",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "F456FC59EA5CEDB2A7A8D59A5D9A4EE1A6ABBBC5",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "72B87E697EBDE2F8946709CBF3A5E1FD4037E33B",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "4AD296E3ED5900539CCA15D9D4FC0E690A4FF41B",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "3309873AD0EFD610B3B17236AD99D7D9440F3051",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "C9E9C20243B2B172DD4EB9A3B9BC746F0B35B2F8",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "7D075ACFE7A082EB0ECD88388E22466E6E59D71B",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "4D8165FA0639C34B7C06995F1264FDFD7D7FADF0",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "BAB9C1BDEA4280DFA3FBA4D3558938ABE5100951",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "6817AB50FDE96200B6E7986FCA733B2064A0F309",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		},
+		{
+			"ShaderMapHash": "9315ED0EC7BD331D407ACA12D4B3FBCFA490D5FB",
+			"Assets": [
+				"/ReturnToParadise/Levels/RTP_World"
+			]
+		}
+	]
+}

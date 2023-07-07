@@ -65,11 +65,22 @@
 				"Win64",
 				"Linux"
 			]
+		},
+		{
+			"Name": "LogicCore",
+			"Enabled": false
+		},
+		{
+			"Name": "sipausodi",
+			"Enabled": false
+		},
+		{
+			"Name": "Blah",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
 		"Windows",
-		"Android",
-		"HoloLens"
+		"Android"
 	]
 }
