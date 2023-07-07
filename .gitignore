@@ -1,5 +1,7 @@
 # Game features / Mods / DLC / Games
 Plugins/GameFeatures/*
+Releases/*
+Mods/*
 
 # Visual Studio 2015 user specific files
 .vs/
