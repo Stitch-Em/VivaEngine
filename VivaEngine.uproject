@@ -77,10 +77,15 @@
 		{
 			"Name": "Blah",
 			"Enabled": false
+		},
+		{
+			"Name": "RTP_ExampleMod",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
 		"Windows",
-		"Android"
+		"Android",
+		"HoloLens"
 	]
 }
