@@ -44,11 +44,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "ReturnToParadise",
-			"Enabled": true,
-			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
-		},
-		{
 			"Name": "OpenXR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
@@ -81,6 +76,11 @@
 		{
 			"Name": "RTP_ExampleMod",
 			"Enabled": false
+		},
+		{
+			"Name": "ReturnToParadise",
+			"Enabled": true,
+			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
 		}
 	],
 	"TargetPlatforms": [
