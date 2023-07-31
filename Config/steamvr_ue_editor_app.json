@@ -2,7 +2,7 @@
 	"source": "UE",
 	"applications": [
 		{
-			"app_key": "application.generated.ue.vivaengine-23901901.unrealeditor.exe",
+			"app_key": "application.generated.ue.vivaengine-26001984.unrealeditor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
 			"action_manifest_path": "F:/GitHub/VivaEngine/Config/SteamVRBindings/steamvr_manifest.json",
@@ -10,7 +10,7 @@
 			{
 				"en_us":
 				{
-					"name": "VivaEngine-23901901 [UE Editor]"
+					"name": "VivaEngine-26001984 [UE Editor]"
 				}
 			}
 		}
