@@ -69,6 +69,15 @@
 		{
 			"Name": "Dataflow",
 			"Enabled": false
+		},
+		{
+			"Name": "ReturnToParadise",
+			"Enabled": true,
+			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
+		},
+		{
+			"Name": "VE_ModSupport",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
