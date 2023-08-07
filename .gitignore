@@ -1,7 +1,8 @@
 # Game features / Mods / DLC / Games
-Plugins/GameFeatures/*
+Plugins/GameFeatures/ReturnToParadise
+Plugins/GameFeatures/VivaPinata
+!Plugins/GameFeatures/VE_ModSupport/*
 Releases/*
-Mods/*
 
 # Visual Studio 2015 user specific files
 .vs/
@@ -80,3 +81,4 @@ DerivedDataCache/*
 .vsconfig
 .vsconfig
 .vsconfig
+Plugins/GameFeatures/VivaPianta/
