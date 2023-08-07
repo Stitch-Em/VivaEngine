@@ -78,6 +78,11 @@
 		{
 			"Name": "VE_ModSupport",
 			"Enabled": true
+		},
+		{
+			"Name": "BugSplat",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f26128f947f5471fa7d24184545b3d09"
 		}
 	],
 	"TargetPlatforms": [
