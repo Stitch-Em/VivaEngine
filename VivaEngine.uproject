@@ -50,14 +50,6 @@
 			]
 		},
 		{
-			"Name": "SteamVR",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
-			]
-		},
-		{
 			"Name": "modio",
 			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/1ab22ed2961a4cc19b9151bd072df998"
@@ -83,6 +75,15 @@
 			"Name": "BugSplat",
 			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f26128f947f5471fa7d24184545b3d09"
+		},
+		{
+			"Name": "OculusXR",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/8313d8d7e7cf4e03a33e79eb757bccba",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Android"
+			]
 		}
 	],
 	"TargetPlatforms": [

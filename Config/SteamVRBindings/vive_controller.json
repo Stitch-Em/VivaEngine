@@ -119,6 +119,28 @@
 				},
 				{
 					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SpectatorFOV axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SpectatorFOV axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
 					"path": "/user/hand/left/input/trigger",
 					"inputs":
 					{
@@ -136,6 +158,28 @@
 						"pull":
 						{
 							"output": "/actions/main/in/TriggerAxisRight axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SpectatorFOV axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/SpectatorFOV axis"
 						}
 					}
 				}
@@ -173,5 +217,5 @@
 			]
 		}
 	},
-	"description": "VivaEngine-23901901"
+	"description": "VivaEngine-26001984"
 }
