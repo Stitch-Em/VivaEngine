@@ -89,6 +89,9 @@
 	"TargetPlatforms": [
 		"Windows",
 		"Android",
-		"HoloLens"
+		"HoloLens",
+		"Mac",
+		"IOS",
+		"Linux"
 	]
 }
