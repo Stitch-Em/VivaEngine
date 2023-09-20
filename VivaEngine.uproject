@@ -84,6 +84,11 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "GFur",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c657e6d3d6c9467db3e96c828529841b"
 		}
 	],
 	"TargetPlatforms": [
