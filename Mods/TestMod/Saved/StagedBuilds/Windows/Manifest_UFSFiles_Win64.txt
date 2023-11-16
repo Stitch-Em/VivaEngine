@@ -1,5 +1,0 @@
-VivaEngine/Mods/TestMod/TestMod.uplugin	2023-08-06T07:58:24.698Z
-VivaEngine/Mods/TestMod/AssetRegistry.bin	2023-08-06T13:54:11.425Z
-VivaEngine/Mods/TestMod/Content/TM_ModManager.uasset	2023-08-06T13:54:11.369Z
-VivaEngine/Mods/TestMod/Content/TM_ModManager.uexp	2023-08-06T13:54:11.369Z
-VivaEngine/Mods/TestMod/Content/Paks/Windows/TestModVivaEngine-Windows.pak	2023-08-06T13:54:14.116Z
