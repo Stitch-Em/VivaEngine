@@ -33,16 +33,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "OpenXR",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Android",
-				"HoloLens"
-			]
-		},
-		{
 			"Name": "Dataflow",
 			"Enabled": false
 		},
@@ -64,10 +54,6 @@
 			"Name": "GFur",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c657e6d3d6c9467db3e96c828529841b"
-		},
-		{
-			"Name": "LogicCore",
-			"Enabled": true
 		},
 		{
 			"Name": "N10XSourceCodeAccess",
