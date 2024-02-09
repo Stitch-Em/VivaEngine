@@ -1,0 +1,15 @@
+FileVersion:2
+Type:Static
+Guid:DC2D2B3D-4EBA-6F58-5A1D-C4BBD854AB33
+ParentGuid:D32E18A4-4FC7-2E9F-4689-F393B24AA30F
+Color:(R=0.964686,G=0.964686,B=0.964686,A=1.000000)
+
+/ReturnToParadise/Prefabs/RTP_BeachBall.RTP_BeachBall
+/ReturnToParadise/Prefabs/RTP_FirePit.RTP_FirePit
+/ReturnToParadise/Prefabs/RTP_Log1.RTP_Log1
+/ReturnToParadise/Prefabs/RTP_Log2.RTP_Log2
+/ReturnToParadise/Prefabs/RTP_Lounmengo.RTP_Lounmengo
+/ReturnToParadise/Prefabs/RTP_Pillow.RTP_Pillow
+/ReturnToParadise/Prefabs/RTP_Sign.RTP_Sign
+/ReturnToParadise/Prefabs/RTP_SunOnAStick.RTP_SunOnAStick
+/ReturnToParadise/Prefabs/RTP_Telescope.RTP_Telescope

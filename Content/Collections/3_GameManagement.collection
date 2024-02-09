@@ -1,0 +1,11 @@
+FileVersion:2
+Type:Static
+Guid:64B54FB9-4A99-F87D-A7F4-4291ADC469A3
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+/Game/VivaEngine/Core/EventManager/VE_EventManager.VE_EventManager
+/Game/VivaEngine/Core/Player/Gamemode/VE_GameInstance.VE_GameInstance
+/Game/VivaEngine/Core/Player/Gamemode/VE_LocalObjects.VE_LocalObjects
+/Game/VivaEngine/ModSupport/JsonReader/JsonModLoader.JsonModLoader
+/Game/VivaEngine/ModSupport/PluginModManager.PluginModManager
+/Game/VivaEngine/SteamAPI/SteamManager.SteamManager

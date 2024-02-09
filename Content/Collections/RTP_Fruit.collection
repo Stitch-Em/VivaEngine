@@ -1,0 +1,12 @@
+FileVersion:2
+Type:Static
+Guid:A8273455-4893-B91F-2426-5984DD38A14C
+ParentGuid:D32E18A4-4FC7-2E9F-4689-F393B24AA30F
+Color:(R=0.964686,G=0.964686,B=0.964686,A=1.000000)
+
+/ReturnToParadise/Assets/Models/Fruit/Cherry/RTP_Cherry.RTP_Cherry
+/ReturnToParadise/Assets/Models/Fruit/Lemon/RTP_Lemon.RTP_Lemon
+/ReturnToParadise/Assets/Models/Fruit/Lime/RTP_Lime.RTP_Lime
+/ReturnToParadise/Assets/Models/Fruit/Peach/RTP_Peach.RTP_Peach
+/ReturnToParadise/Assets/Models/Fruit/Pear/RTP_Pear.RTP_Pear
+/ReturnToParadise/Assets/Models/Fruit/Tomato/RTP_Tomato.RTP_Tomato

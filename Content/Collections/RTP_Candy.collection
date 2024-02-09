@@ -1,0 +1,10 @@
+FileVersion:2
+Type:Static
+Guid:DEC7F663-4070-1285-8BEB-09B86F39B1C7
+ParentGuid:D32E18A4-4FC7-2E9F-4689-F393B24AA30F
+Color:(R=0.964686,G=0.964686,B=0.964686,A=1.000000)
+
+/ReturnToParadise/Assets/Models/Candy/Heart/RTP_RomanceCandy.RTP_RomanceCandy
+/ReturnToParadise/Assets/Models/Candy/Regular/RTP_RainbowCandy.RTP_RainbowCandy
+/ReturnToParadise/Assets/Models/Candy/Regular/RTP_RegularCandy.RTP_RegularCandy
+/ReturnToParadise/Assets/Models/Candy/Sour/RTP_SourCandy.RTP_SourCandy

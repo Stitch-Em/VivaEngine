@@ -1,0 +1,15 @@
+FileVersion:2
+Type:Static
+Guid:159FC3E5-4A32-87D0-3A8A-74BDAD4E6AEB
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+/Game/VivaEngine/Core/Hud/Journal/VE_Journal_HUD.VE_Journal_HUD
+/Game/VivaEngine/Core/Hud/StarMenu/VE_StarMenu.VE_StarMenu
+/Game/VivaEngine/Core/Hud/Tag/VE_UI_TagDesigner.VE_UI_TagDesigner
+/Game/VivaEngine/Core/Hud/ToggleBar/VE_ToggleBar.VE_ToggleBar
+/Game/VivaEngine/Core/Hud/Tutorial/VE_ControlsTutorial.VE_ControlsTutorial
+/Game/VivaEngine/Core/Hud/Tutorial/VE_QualitySettings.VE_QualitySettings
+/Game/VivaEngine/Core/Hud/VE_Coins.VE_Coins
+/Game/VivaEngine/Core/Hud/VE_SellingHud.VE_SellingHud
+/ReturnToParadise/HUD/RtP_MainMenu.RtP_MainMenu
+/ReturnToParadise/HUD/RTP_PlayerHUD.RTP_PlayerHUD
