@@ -261,6 +261,10 @@
 		{
 			"Name": "PlasticSourceControl",
 			"Enabled": false
+		},
+		{
+			"Name": "ImpostorBaker",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [

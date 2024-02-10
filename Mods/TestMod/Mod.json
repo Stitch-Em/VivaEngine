@@ -1,1 +1,1 @@
-{"DATA":{"name":"TestMod","version":{"x":0,"y":1,"z":0},"mods":[{"type":"Packet","textures":{"Mod_GoldenGrass":"Resources/Textures/Packet_1/Mod_GoldenGrass.png"},"models":{},"shaders":{},"objects":[{"object Name":"Golden Grass","mesh":{"model":"None","shaders":{}},"brokenMeshes":[]}]}]}}
+{"Mod":{"mod Name":"ExamplePacketMod","mod Version":{"x":0,"y":1,"z":0},"mod Description":"This Example mod adds a golden grass packet.","addonPaths":["GoldenPacket/GoldenPacket.json"]}}

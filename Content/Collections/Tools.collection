@@ -1,0 +1,8 @@
+FileVersion:2
+Type:Static
+Guid:DF57C117-4AEF-4938-4B39-4388691B1155
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+/ImpostorBaker/BP/BP_Generate_ImposterSprites.BP_Generate_ImposterSprites
+/RTP_Editor_Tools/GardenSaveManager.GardenSaveManager
+/RTP_Editor_Tools/Generate_Impostor_Map.Generate_Impostor_Map
