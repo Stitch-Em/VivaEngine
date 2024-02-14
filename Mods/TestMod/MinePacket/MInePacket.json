@@ -1,10 +1,10 @@
 {
   "Type": 0,
   "Packet": {
-    "packetName": "Golden Grass",
-    "colorTexturePath": "GoldenPacket/Assets/Texture.png",
+    "packetName": "MineCraft",
+    "colorTexturePath": "MinePacket/Assets/Texture.png",
     "normalTexturePath": "",
-    "iconTexturePath": "GoldenPacket/Assets/Icon.png",
+    "iconTexturePath": "",
     "falloff": 0,
     "uV": 2,
     "channelColor": {
@@ -20,8 +20,8 @@
       "a": 0
     },
     "packetLeafColor": {
-      "r": 1,
-      "g": 1,
+      "r": 0,
+      "g": 0.6,
       "b": 0,
       "a": 1
     }

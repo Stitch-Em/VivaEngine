@@ -1,1 +1,12 @@
-{"Mod":{"mod Name":"ExamplePacketMod","mod Version":{"x":0,"y":1,"z":0},"mod Description":"This Example mod adds a golden grass packet.","addonPaths":["GoldenPacket/GoldenPacket.json"]}}
+{
+  "Mod": {
+    "mod Name": "ExamplePacketMod",
+    "mod Version": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "mod Description": "This Example mod adds a golden grass packet.",
+    "addonPaths": [ "GoldenPacket/GoldenPacket.json", "MinePacket/MinePacket.json" ]
+  }
+}
