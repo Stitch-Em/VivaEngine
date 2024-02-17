@@ -12,8 +12,9 @@
 *.xcf filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 
-# GFur file types
-*.abc filter=lfs diff=lfs merge=lfs -text
+# Build Files
+*exe filter=lfs diff=lfs merge=lfs -text
+*pdb filter=lfs diff=lfs merge=lfs -text
 
 # Anything in `/RawContent` dir.
 /RawContent/**/* filter=lfs diff=lfs merge=lfs -text
