@@ -64,3 +64,12 @@ DerivedDataCache/*
 .vsconfig
 Plugins/GameFeatures/VivaPianta/
 Platforms/
+Source/VivaEngine.Target.cs
+Source/VivaEngine/Private/VE_Event_Subsystem.cpp
+Source/VivaEngine/Private/VE_ID_Registration_Subsystem.cpp
+Source/VivaEngine/Public/VE_Event_Subsystem.h
+Source/VivaEngine/Public/VE_ID_Registration_Subsystem.h
+Source/VivaEngine/VivaEngine.Build.cs
+Source/VivaEngine/VivaEngine.cpp
+Source/VivaEngine/VivaEngine.h
+Source/VivaEngineEditor.Target.cs
