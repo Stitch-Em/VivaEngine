@@ -2630,18 +2630,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/AsyncLoadingScreen/Binaries/Win64/UnrealEditor-AsyncLoadingScreen.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/AsyncLoadingScreen/Binaries/Win64/UnrealEditor-AsyncLoadingScreen.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/AsyncLoadingScreen/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/DiscordFeatures/Binaries/Win64/UnrealEditor-DiscordAchievement.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3435,6 +3423,30 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSessions/Binaries/Win64/UnrealEditor-AdvancedSessions.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSessions/Binaries/Win64/UnrealEditor-AdvancedSessions.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSessions/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSteamSessions/Binaries/Win64/UnrealEditor-AdvancedSteamSessions.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSteamSessions/Binaries/Win64/UnrealEditor-AdvancedSteamSessions.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSteamSessions/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		}
 	],
@@ -23320,10 +23332,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/AsyncLoadingScreen/AsyncLoadingScreen.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/DiscordFeatures/DiscordFeatures.uplugin",
 			"Type": "UFS"
 		},
@@ -23549,6 +23557,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/XGEController/XGEController.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSessions/AdvancedSessions.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AdvancedSteamSessions/AdvancedSteamSessions.uplugin",
 			"Type": "UFS"
 		},
 		{
