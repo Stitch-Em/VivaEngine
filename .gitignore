@@ -12,6 +12,7 @@ Releases/*
 *.lo
 *.o
 *.obj
+*.pdb
 
 # Precompiled Headers
 *.gch
@@ -34,7 +35,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 
-Plugins/*/Binaries/*
+
 
 # Builds
 Build/*
