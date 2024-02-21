@@ -74,3 +74,8 @@ Source/VivaEngine/VivaEngine.Build.cs
 Source/VivaEngine/VivaEngine.cpp
 Source/VivaEngine/VivaEngine.h
 Source/VivaEngineEditor.Target.cs
+Plugins/MultiDraw/Binaries/Win64/UnrealEditor-MultiDraw.dll
+Plugins/MultiDraw/Binaries/Win64/UnrealEditor.modules
+Plugins/SimpleUGC/Binaries/Win64/UnrealEditor-SimpleUGC.dll
+Plugins/SimpleUGC/Binaries/Win64/UnrealEditor-SimpleUGCEditor.dll
+Plugins/SimpleUGC/Binaries/Win64/UnrealEditor.modules
