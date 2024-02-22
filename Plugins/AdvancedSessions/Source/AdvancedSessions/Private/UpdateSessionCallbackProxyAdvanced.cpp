@@ -12,7 +12,7 @@ UUpdateSessionCallbackProxyAdvanced::UUpdateSessionCallbackProxyAdvanced(const F
 {
 }	
 
-UUpdateSessionCallbackProxyAdvanced* UUpdateSessionCallbackProxyAdvanced::UpdateSession(UObject* WorldContextObject, const TArray<FSessionPropertyKeyPair> &ExtraSettings, int32 PublicConnections, int32 PrivateConnections, bool bUseLAN, bool bAllowInvites, bool bAllowJoinInProgress, bool bRefreshOnlineData, bool bIsDedicatedServer)
+UUpdateSessionCallbackProxyAdvanced* UUpdateSessionCallbackProxyAdvanced::UpdateSession(UObject* WorldContextObject, const TArray<FSessionPropertyKeyPair> &ExtraSettings, int32 PublicConnections, int32 PrivateConnections, bool bUseLAN, bool bAllowInvites, bool bAllowJoinInProgress, bool bRefreshOnlineData, bool bIsDedicatedServer, bool bShouldAdvertise)
 {
 	UUpdateSessionCallbackProxyAdvanced* Proxy = NewObject<UUpdateSessionCallbackProxyAdvanced>();
 	Proxy->NumPublicConnections = PublicConnections;
@@ -24,12 +24,13 @@ UUpdateSessionCallbackProxyAdvanced* UUpdateSessionCallbackProxyAdvanced::Update
 	Proxy->bRefreshOnlineData = bRefreshOnlineData;
 	Proxy->bAllowJoinInProgress = bAllowJoinInProgress;
 	Proxy->bDedicatedServer = bIsDedicatedServer;
+	Proxy->bShouldAdvertise = bShouldAdvertise;
 	return Proxy;	
 }
 
 void UUpdateSessionCallbackProxyAdvanced::Activate()
 {
-	const FOnlineSubsystemBPCallHelperAdvanced Helper(TEXT("UpdateSession"), GEngine->GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::LogAndReturnNull));
+	const FOnlineSubsystemBPCallHelperAdvanced Helper(TEXT("UpdateSession"), GEngine->GetWorldFromContextObject(WorldContextObject.Get(), EGetWorldErrorMode::LogAndReturnNull));
 
 	if (Helper.OnlineSub != nullptr)
 	{
@@ -60,7 +61,7 @@ void UUpdateSessionCallbackProxyAdvanced::Activate()
 			//Settings->BuildUniqueId = GetBuildUniqueId();
 			Settings->NumPublicConnections = NumPublicConnections;
 			Settings->NumPrivateConnections = NumPrivateConnections;
-			//Settings->bShouldAdvertise = true;
+			Settings->bShouldAdvertise = bShouldAdvertise;
 			Settings->bAllowJoinInProgress = bAllowJoinInProgress;
 			Settings->bIsLANMatch = bUseLAN;
 			//Settings->bUsesPresence = true;
@@ -104,7 +105,7 @@ void UUpdateSessionCallbackProxyAdvanced::Activate()
 
 void UUpdateSessionCallbackProxyAdvanced::OnUpdateCompleted(FName SessionName, bool bWasSuccessful)
 {
-	const FOnlineSubsystemBPCallHelperAdvanced Helper(TEXT("UpdateSessionCallback"), GEngine->GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::LogAndReturnNull));
+	const FOnlineSubsystemBPCallHelperAdvanced Helper(TEXT("UpdateSessionCallback"), GEngine->GetWorldFromContextObject(WorldContextObject.Get(), EGetWorldErrorMode::LogAndReturnNull));
 
 	if (Helper.OnlineSub != nullptr)
 	{

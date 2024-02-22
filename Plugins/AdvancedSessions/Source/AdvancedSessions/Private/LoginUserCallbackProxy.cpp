@@ -2,6 +2,7 @@
 
 #include "LoginUserCallbackProxy.h"
 
+#include "Online.h"
 
 //////////////////////////////////////////////////////////////////////////
 // ULoginUserCallbackProxy
@@ -40,8 +41,15 @@ void ULoginUserCallbackProxy::Activate()
 		return;
 	}
 
-	auto Identity = Online::GetIdentityInterface();
+	FOnlineSubsystemBPCallHelperAdvanced Helper(TEXT("LoginUser"), GEngine->GetWorldFromContextObject(WorldContextObject.Get(), EGetWorldErrorMode::LogAndReturnNull));
 
+	if (!Helper.OnlineSub)
+	{
+		OnFailure.Broadcast();
+		return;
+	}
+
+	auto Identity = Helper.OnlineSub->GetIdentityInterface();
 	if (Identity.IsValid())
 	{
 		// Fallback to default AuthType if nothing is specified
@@ -69,8 +77,15 @@ void ULoginUserCallbackProxy::OnCompleted(int32 LocalUserNum, bool bWasSuccessfu
 
 		if (Player)
 		{
-			auto Identity = Online::GetIdentityInterface();
+			FOnlineSubsystemBPCallHelperAdvanced Helper(TEXT("GetUserPrivilege"), GEngine->GetWorldFromContextObject(WorldContextObject.Get(), EGetWorldErrorMode::LogAndReturnNull));
 
+			if (!Helper.OnlineSub)
+			{
+				OnFailure.Broadcast();
+				return;
+			}
+
+			auto Identity = Helper.OnlineSub->GetIdentityInterface();
 			if (Identity.IsValid())
 			{
 				Identity->ClearOnLoginCompleteDelegate_Handle(Player->GetControllerId(), DelegateHandle);
