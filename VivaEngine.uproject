@@ -276,6 +276,10 @@
 		{
 			"Name": "ImpostorBaker",
 			"Enabled": true
+		},
+		{
+			"Name": "SteamSockets",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
