@@ -79,3 +79,8 @@ Plugins/MultiDraw/Binaries/Win64/UnrealEditor.modules
 Plugins/SimpleUGC/Binaries/Win64/UnrealEditor-SimpleUGC.dll
 Plugins/SimpleUGC/Binaries/Win64/UnrealEditor-SimpleUGCEditor.dll
 Plugins/SimpleUGC/Binaries/Win64/UnrealEditor.modules
+Plugins/gFurPro-5.2/Binaries/Win64/UnrealEditor-GFur.dll
+Plugins/gFurPro-5.2/Binaries/Win64/UnrealEditor-GFurEditor.dll
+Plugins/gFurPro-5.2/Binaries/Win64/UnrealEditor.modules
+Plugins/ModIO/Binaries/Win64/UnrealEditor-MSDFSupport.dll
+Plugins/ModIO/Binaries/Win64/UnrealEditor-MSDFSupportEditor.dll
