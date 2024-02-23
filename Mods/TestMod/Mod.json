@@ -7,6 +7,6 @@
       "z": 0
     },
     "mod Description": "This Example mod adds a golden grass packet.",
-    "addonPaths": [ "GoldenPacket/GoldenPacket.json", "MinePacket/MinePacket.json" ]
+    "addonPaths": [ "GoldenPacket/GoldenPacket.json"]
   }
 }
