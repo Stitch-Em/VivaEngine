@@ -109,6 +109,7 @@ void UVE_Event_Subsystem::AddEvent(FVE_CEvent Event)
 void UVE_Event_Subsystem::OnetimeEvent(FVE_CEvent Event)
 {
 	//We want to call the Onetime event dispatcher once added here.
+	OnOnetimeEvent.Broadcast(Event);
 	return;
 }
 
