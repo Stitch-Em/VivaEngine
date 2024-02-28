@@ -23,12 +23,7 @@ int UVE_Event_Subsystem::GetEvent(FVE_CEvent Event)
 
 bool UVE_Event_Subsystem::IsTaskCompleted(FVE_CTask Task)
 {
-	if(CompletedTasks.Find(Task.TaskKey)){
-		return true;
-	}
-	else {
-		return false;
-	}
+	return CompletedTasks.Contains(Task.TaskKey);
 }
 
 void UVE_Event_Subsystem::OnAddedEventCalled(FVE_CEvent Event)
@@ -57,7 +52,7 @@ void UVE_Event_Subsystem::CheckTask()
 	for (FVE_CTask Task : Tasks) {
 		if (EventMap.Find(Task.EventKey) && *EventMap.Find(Task.EventKey) >= Task.TriggerTimes) {
 			//If the task is a one time task and it has been completed 
-			if (Task.OneTime && CompletedTasks.Find(Task.TaskKey)) {
+			if (Task.OneTime && CompletedTasks.Contains(Task.TaskKey)) {
 
 				return;
 				
