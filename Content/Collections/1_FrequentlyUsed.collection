@@ -10,6 +10,7 @@ Color:(R=0.363589,G=0.964686,B=0.000000,A=1.000000)
 /Game/VivaEngine/Core/EventManager/VE_MacroLib.VE_MacroLib
 /Game/VivaEngine/Core/Graphics/MasterShaders/VE_MasterMaterial.VE_MasterMaterial
 /Game/VivaEngine/Core/Graphics/MasterShaders/VivaEngineShaderSettings.VivaEngineShaderSettings
+/Game/VivaEngine/Core/Objects/SubObjects/Building/VE_Building.VE_Building
 /Game/VivaEngine/Core/Objects/SubObjects/Candy/VE_Candy.VE_Candy
 /Game/VivaEngine/Core/Objects/SubObjects/Crate/VE_Crate.VE_Crate
 /Game/VivaEngine/Core/Objects/SubObjects/Egg/VE_Egg.VE_Egg
