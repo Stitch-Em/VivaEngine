@@ -56,6 +56,20 @@ void UDiscordWrapper::BeginPlay()
 	Super::BeginPlay();
 }
 
+// Maybe don't need a specific function to Clear Discord Activity?
+void UDiscordWrapper::BeginDestroy()
+{
+	Super::BeginDestroy();
+	auto result = discord::Core::Create(1030046546768711720, DiscordCreateFlags_NoRequireDiscord, &core);
+
+	if (result == discord::Result::Ok) {
+		core->ActivityManager().ClearActivity([](discord::Result result)
+			{
+				// Can do stuff here on error or success
+			});
+	}
+}
+
 
 // Called every frame
 void UDiscordWrapper::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
