@@ -4,6 +4,9 @@ Plugins/GameFeatures/VivaPinata
 !Plugins/GameFeatures/VE_ModSupport/*
 Releases/*
 
+# Random Files
+UpgradeLog.htm
+
 # Visual Studio 2015 user specific files
 .vs/
 
