@@ -16,7 +16,10 @@ public:
 	UDiscordWrapper();
 
 	UFUNCTION(BlueprintCallable)
-	void SetDiscordActivity(FString State, FString Details);
+	void SetDiscordActivity(FString& State, FString& Details, FString& LargeImageName);
+
+	UFUNCTION(BlueprintCallable)
+	void ClearDiscordActivity();
 
 protected:
 	// Called when the game starts
