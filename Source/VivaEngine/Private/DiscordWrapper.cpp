@@ -33,7 +33,12 @@ void UDiscordWrapper::SetDiscordActivity(FString State, FString Details, FString
 
 	core->ActivityManager().UpdateActivity(activity, [](discord::Result result)
 		{
-			// Can do stuff here on error or success
+			if (result != discord::Result::Ok) {
+#if UE_BUILD_DEBUG
+				if (GEngine)
+					GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, FString::Printf(TEXT("Error with Discord Activity Manager")));
+#endif
+			}
 		});
 }
 
