@@ -17,36 +17,34 @@ void UDiscordWrapper::SetDiscordActivity(FString State, FString Details, FString
 	// We will need to hide this Token ID in something later
 	auto result = discord::Core::Create(1030046546768711720, DiscordCreateFlags_NoRequireDiscord, &core);
 
-	// Only perform the rest if the Discord Application is present
-	if (result == discord::Result::Ok) {
-		discord::Activity activity{};
 
-		// Turn FString UE5 TCHAR into a Char array
-		char* StateChar = TCHAR_TO_UTF8(*State);
-		char* DetailsChar = TCHAR_TO_UTF8(*Details);
-		char* LargeImageChar = TCHAR_TO_UTF8(*LargeImageName);
+	discord::Activity activity{};
 
-		// This will say: Playing Viva Pinata: RtP;\n In Lush Jungle
-		activity.SetType(discord::ActivityType::Playing);
-		activity.SetState(StateChar);
-		activity.SetDetails(DetailsChar);
-		activity.GetAssets().SetLargeImage(LargeImageChar);
+	// Turn FString UE5 TCHAR into a Char array
+	char* StateChar = TCHAR_TO_UTF8(*State);
+	char* DetailsChar = TCHAR_TO_UTF8(*Details);
+	char* LargeImageChar = TCHAR_TO_UTF8(*LargeImageName);
 
-		core->ActivityManager().UpdateActivity(activity, [](discord::Result result) {
+	// This will say: Playing Viva Pinata: RtP;\n In Lush Jungle
+	activity.SetType(discord::ActivityType::Playing);
+	activity.SetState(StateChar);
+	activity.SetDetails(DetailsChar);
+	activity.GetAssets().SetLargeImage(LargeImageChar);
+
+	core->ActivityManager().UpdateActivity(activity, [](discord::Result result)
+		{
 			// Can do stuff here on error or success
 		});
-	}
 }
 
 void UDiscordWrapper::ClearDiscordActivity()
 {
 	auto result = discord::Core::Create(1030046546768711720, DiscordCreateFlags_NoRequireDiscord, &core);
 
-	if (result == discord::Result::Ok) {
-		core->ActivityManager().ClearActivity([](discord::Result result) {
+	core->ActivityManager().ClearActivity([](discord::Result result)
+		{
 			// Can do stuff here on error or success
 		});
-	}
 }
 
 
@@ -54,20 +52,6 @@ void UDiscordWrapper::ClearDiscordActivity()
 void UDiscordWrapper::BeginPlay()
 {
 	Super::BeginPlay();
-}
-
-// Maybe don't need a specific function to Clear Discord Activity?
-void UDiscordWrapper::BeginDestroy()
-{
-	Super::BeginDestroy();
-	auto result = discord::Core::Create(1030046546768711720, DiscordCreateFlags_NoRequireDiscord, &core);
-
-	if (result == discord::Result::Ok) {
-		core->ActivityManager().ClearActivity([](discord::Result result)
-			{
-				// Can do stuff here on error or success
-			});
-	}
 }
 
 
