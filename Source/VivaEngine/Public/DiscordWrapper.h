@@ -16,7 +16,7 @@ public:
 	UDiscordWrapper();
 
 	UFUNCTION(BlueprintCallable)
-	void SetDiscordActivity(FString& State, FString& Details, FString& LargeImageName);
+	void SetDiscordActivity(FString State, FString Details, FString LargeImageName);
 
 	UFUNCTION(BlueprintCallable)
 	void ClearDiscordActivity();

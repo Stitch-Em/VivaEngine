@@ -11,7 +11,7 @@ UDiscordWrapper::UDiscordWrapper()
 	PrimaryComponentTick.bCanEverTick = true;
 }
 
-void UDiscordWrapper::SetDiscordActivity(FString& State, FString& Details, FString& LargeImageName)
+void UDiscordWrapper::SetDiscordActivity(FString State, FString Details, FString LargeImageName)
 {
 	// Make sure Discord is not required
 	// We will need to hide this Token ID in something later
