@@ -260,7 +260,7 @@
 		},
 		{
 			"Name": "DiscordFeatures",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/116f31feebb24938aaba6227f8617db4"
 		},
 		{
