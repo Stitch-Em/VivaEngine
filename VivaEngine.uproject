@@ -52,20 +52,6 @@
 			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
 		},
 		{
-			"Name": "OculusXR",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/8313d8d7e7cf4e03a33e79eb757bccba",
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Android"
-			]
-		},
-		{
-			"Name": "GFur",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c657e6d3d6c9467db3e96c828529841b"
-		},
-		{
 			"Name": "N10XSourceCodeAccess",
 			"Enabled": false
 		},
@@ -111,11 +97,6 @@
 		{
 			"Name": "ArchVisCharacter",
 			"Enabled": false
-		},
-		{
-			"Name": "AsyncLoadingScreen",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/01f39767dc6b4290877f38365787cbf8"
 		},
 		{
 			"Name": "ChaosCloth",
@@ -257,16 +238,6 @@
 		{
 			"Name": "OnlineSubsystemSteam",
 			"Enabled": true
-		},
-		{
-			"Name": "DiscordFeatures",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/116f31feebb24938aaba6227f8617db4"
-		},
-		{
-			"Name": "StatsIntegration",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ec733baa0ae049d08cda0c3528ebe8d4"
 		},
 		{
 			"Name": "PlasticSourceControl",
