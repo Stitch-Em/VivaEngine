@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MultiDrawSupport",
+	"Description": "Seperates the Paid Plugin from the game while keeping the support for those who have the plugin.",
+	"Category": "Game Features",
+	"CreatedBy": "SolarCookies",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"ExplicitlyLoaded": true,
+	"BuiltInInitialFeatureState": "Active",
+	"Plugins": [
+		{
+			"Name": "MultiDraw",
+			"Enabled": true
+		}
+	]
+}
