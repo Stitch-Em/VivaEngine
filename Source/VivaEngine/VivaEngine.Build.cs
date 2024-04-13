@@ -15,14 +15,12 @@ public class VivaEngine : ModuleRules
 
         // Get the directory path where the Discord files are located
         string DiscordFilesDirectory = Path.Combine(ModuleDirectory, "discord-files");
-        string SteamFilesDirectory = Path.Combine(ModuleDirectory, "steam-files");
         PublicIncludePaths.Add(DiscordFilesDirectory);
 
         // Get the path to the lib file
         string BinariesDirectory = Path.Combine(ModuleDirectory, "../../Binaries", Target.Platform.ToString());
-        string DiscordLib = Path.Combine(BinariesDirectory, "discord_game_sdk.dll.lib");
-        string SteamLib = Path.Combine(BinariesDirectory, "steam_api64.lib");
-        PublicAdditionalLibraries.Add(DiscordLib);
+        string LibFilePath = Path.Combine(BinariesDirectory, "discord_game_sdk.dll.lib");
+        PublicAdditionalLibraries.Add(LibFilePath);
 
         // Uncomment if you are using Slate UI
         // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
