@@ -4,6 +4,7 @@ Guid:D7D83004-4C56-439E-CD10-3C98D3FB77A9
 ParentGuid:00000000-0000-0000-0000-000000000000
 Color:(R=0.363589,G=0.964686,B=0.000000,A=1.000000)
 
+/Game/CleanedUp/Core/Player-Gamemodes/Gamemodes/Cursor/VE_CursorPlayer.VE_CursorPlayer
 /Game/VivaEngine/Core/AI/Animals/Data/VE_AnimalDataAsset.VE_AnimalDataAsset
 /Game/VivaEngine/Core/AI/Animals/VE_Animal_Base.VE_Animal_Base
 /Game/VivaEngine/Core/EventManager/VE_EventManager.VE_EventManager
@@ -18,4 +19,3 @@ Color:(R=0.363589,G=0.964686,B=0.000000,A=1.000000)
 /Game/VivaEngine/Core/Objects/SubObjects/Seeds/VE_Seed.VE_Seed
 /Game/VivaEngine/Core/Objects/VE_BaseObject.VE_BaseObject
 /Game/VivaEngine/Core/Objects/VE_ItemDataAsset.VE_ItemDataAsset
-/Game/VivaEngine/Core/Player/Charactors/VE_CursorPlayer.VE_CursorPlayer
