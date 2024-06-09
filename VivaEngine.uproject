@@ -246,10 +246,6 @@
 		{
 			"Name": "ImpostorBaker",
 			"Enabled": true
-		},
-		{
-			"Name": "MultiDrawSupport",
-			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
