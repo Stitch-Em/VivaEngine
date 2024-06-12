@@ -3,7 +3,7 @@ Type:Static
 Guid:4CEEB922-4D86-D176-A076-4CA46E805BA1
 ParentGuid:00000000-0000-0000-0000-000000000000
 
+/Game/CleanedUp/Core/Graphics/Cursor/VE_DynamicCursor.VE_DynamicCursor
 /Game/CleanedUp/Core/Player-Gamemodes/Gamemodes/Cursor/VE_CursorPlayer.VE_CursorPlayer
 /Game/CleanedUp/Core/Player-Gamemodes/Gamemodes/MainMenu/VE_MainMenuPawn.VE_MainMenuPawn
 /Game/CleanedUp/Core/Player-Gamemodes/Gamemodes/Shop/VE_StorePawn.VE_StorePawn
-/Game/VivaEngine/Core/Player/Cursor/VE_DynamicCursor.VE_DynamicCursor
