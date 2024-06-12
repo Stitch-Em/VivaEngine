@@ -4,9 +4,6 @@ Guid:D9FF25ED-4353-A9BB-E51C-F2BDC582F06F
 ParentGuid:00000000-0000-0000-0000-000000000000
 
 /Game/VivaEngine/Core/Graphics/Fur/VE_Fur_Material.VE_Fur_Material
-/Game/VivaEngine/Core/Graphics/MasterShaders/GardenBorder.GardenBorder
-/Game/VivaEngine/Core/Graphics/MasterShaders/NightShader.NightShader
-/Game/VivaEngine/Core/Graphics/MasterShaders/PlayerLight.PlayerLight
 /Game/VivaEngine/Core/Graphics/MasterShaders/VE_MasterMaterial.VE_MasterMaterial
 /Game/VivaEngine/Core/Graphics/MasterShaders/VivaEngineShaderSettings.VivaEngineShaderSettings
 /ReturnToParadise/Graphics/Grass/RTP_GS_M_Grass.RTP_GS_M_Grass
