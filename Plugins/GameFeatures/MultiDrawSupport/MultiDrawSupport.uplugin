@@ -21,6 +21,10 @@
 		{
 			"Name": "MultiDraw",
 			"Enabled": true
+		},
+		{
+			"Name": "TerrainPlugin_1",
+			"Enabled": true
 		}
 	]
 }
