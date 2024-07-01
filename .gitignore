@@ -78,3 +78,14 @@ Plugins/gFurPro-5.2/Binaries/Win64/UnrealEditor-GFurEditor.dll
 Plugins/gFurPro-5.2/Binaries/Win64/UnrealEditor.modules
 Plugins/ModIO/Binaries/Win64/UnrealEditor-MSDFSupport.dll
 Plugins/ModIO/Binaries/Win64/UnrealEditor-MSDFSupportEditor.dll
+Binaries/Win64/D3D12/D3D12Core.dll
+Binaries/Win64/OpenImageDenoise.dll
+Binaries/Win64/tbb.dll
+Binaries/Win64/tbb12.dll
+Binaries/Win64/tbbmalloc.dll
+Binaries/Win64/VivaEngine-Win64-Shipping.exe
+Binaries/Win64/VivaEngine-Win64-Shipping.exp
+Binaries/Win64/VivaEngine-Win64-Shipping.lib
+Binaries/Win64/VivaEngine-Win64-Shipping.target
+VivaEngine.uproject
+VivaEngine.uproject
