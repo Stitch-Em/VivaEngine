@@ -25,6 +25,10 @@
 		{
 			"Name": "TerrainPlugin_1",
 			"Enabled": true
+		},
+		{
+			"Name": "ReturnToParadise",
+			"Enabled": true
 		}
 	]
 }
