@@ -36,6 +36,8 @@ void UVE_Event_Subsystem::OnOnetimeEventCalled(FVE_CEvent Event)
 	return;
 }
 
+
+
 void UVE_Event_Subsystem::OnCompletedTaskCalled(FVE_CTask Task)
 {
 	return;
@@ -107,6 +109,8 @@ void UVE_Event_Subsystem::OnetimeEvent(FVE_CEvent Event)
 	OnOnetimeEvent.Broadcast(Event);
 	return;
 }
+
+
 
 void UVE_Event_Subsystem::RemoveEvent(FVE_CEvent Event, bool All)
 {
