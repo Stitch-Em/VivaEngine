@@ -49,6 +49,13 @@ struct FVE_CAlert {
 	FText Dialog;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FName DialogName;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool ForceDialog;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	USoundBase* DialogAudio;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UTexture2D* DialogTexture;
+
 };
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FDSendAlert, FVE_CAlert, Alert);

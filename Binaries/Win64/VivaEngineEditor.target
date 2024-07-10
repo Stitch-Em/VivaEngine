@@ -23376,6 +23376,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/GameFeatures/VivaPianta/VivaPinata.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/RTP_Editor_Tools/RTP_Editor_Tools.uplugin",
 			"Type": "UFS"
 		},
