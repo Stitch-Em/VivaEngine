@@ -31,11 +31,11 @@ void ATerrainGenerator::BeginPlay()
 void ATerrainGenerator::SetLODVisibility()
 {
 	float SectionLength = (SectionXY - 1) * QuadSize;
-	VisibilityLOD0 = SectionLength * 1.5;
-	VisibilityLOD1 = SectionLength * 2.5;
-	VisibilityLOD2 = SectionLength * 3.5;
-	VisibilityLOD3 = SectionLength * 4.5;
-	VisibilityLOD4 = SectionLength * 10.5;
+	//VisibilityLOD0 = SectionLength * 1.5;
+	//VisibilityLOD1 = SectionLength * 2.5;
+	//VisibilityLOD2 = SectionLength * 3.5;
+	//VisibilityLOD3 = SectionLength * 4.5;
+	//VisibilityLOD4 = SectionLength * 10.5;
 }
 
 

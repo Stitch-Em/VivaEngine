@@ -29,6 +29,10 @@
 		{
 			"Name": "ReturnToParadise",
 			"Enabled": true
+		},
+		{
+			"Name": "GardenTerrain",
+			"Enabled": true
 		}
 	]
 }

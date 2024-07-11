@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\mag11\\projects\\vivaengine1\\plugins\\simplexnoise\\simplexnoise\\intermediate\\build\\win64\\unrealeditor\\inc\\simplexnoise\\uht\\simplexnoise.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\mag11\\projects\\vivaengine1\\intermediate\\build\\win64\\x64\\vivaengineeditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\mag11\\projects\\vivaengine1\\plugins\\simplexnoise\\simplexnoise\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simplexnoise\\definitions.simplexnoise.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,6 +1,7 @@
 #include "Terrain/TerrainSection.h"
 #include "Terrain/TerrainGenerator.h"
 #include "ProceduralMeshComponent.h"
+//#include "Math/Vector2D.h"
 #include "KismetProceduralMeshLibrary.h"
 
 
@@ -116,6 +117,8 @@ void ATerrainSection::SetVisibility()
 	bool bIsVisibleLOD2 = (DistanceToPawn > OwningTerrain->VisibilityLOD1 && DistanceToPawn < OwningTerrain->VisibilityLOD2) ? true : false;
 	bool bIsVisibleLOD3 = (DistanceToPawn > OwningTerrain->VisibilityLOD2 && DistanceToPawn < OwningTerrain->VisibilityLOD3) ? true : false;
 	bool bIsVisibleLOD4 = (DistanceToPawn > OwningTerrain->VisibilityLOD3 && DistanceToPawn < OwningTerrain->VisibilityLOD4) ? true : false;
+
+	
 
 	//Set visibility
 		ProceduralMeshComponent->SetVisibility(bIsVisibleLOD0);
