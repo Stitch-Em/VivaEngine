@@ -250,6 +250,14 @@
 		{
 			"Name": "MultiDrawSupport",
 			"Enabled": true
+		},
+		{
+			"Name": "ScriptableToolsEditorMode",
+			"Enabled": true
+		},
+		{
+			"Name": "ScriptableToolsFramework",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [

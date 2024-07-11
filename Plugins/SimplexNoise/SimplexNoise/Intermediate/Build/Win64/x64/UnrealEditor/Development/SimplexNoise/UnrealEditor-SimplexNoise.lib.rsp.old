@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SimplexNoise.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\mag11\Projects\Perforce\Sebastian.Robinson_Game1_Dev\Intermediate\Build\Win64\x64\Game1Editor\Development\Engine\SharedPCH.Engine.Cpp17.InclOrderUnreal5_0.h.obj"
+"C:\Users\mag11\Projects\Perforce\Sebastian.Robinson_Game1_Dev\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\Module.SimplexNoise.cpp.obj"
+"C:\Users\mag11\Projects\Perforce\Sebastian.Robinson_Game1_Dev\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\Default.rc2.res"
+/OUT:"C:\Users\mag11\Projects\Perforce\Sebastian.Robinson_Game1_Dev\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\UnrealEditor-SimplexNoise.lib"

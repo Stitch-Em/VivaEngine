@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SimplexNoise.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"H:\Projects\RomanceMinigameMaker\Intermediate\Build\Win64\x64\RomanceMinigameMakerEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"H:\Projects\RomanceMinigameMaker\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\Module.SimplexNoise.cpp.obj"
+"H:\Projects\RomanceMinigameMaker\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\Default.rc2.res"
+/OUT:"H:\Projects\RomanceMinigameMaker\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\UnrealEditor-SimplexNoise.lib"
