@@ -33,6 +33,10 @@
 		{
 			"Name": "GardenTerrain",
 			"Enabled": true
+		},
+		{
+			"Name": "VE_Area",
+			"Enabled": true
 		}
 	]
 }
