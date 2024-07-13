@@ -56,7 +56,7 @@ void UVE_Event_Subsystem::CheckTask()
 			//If the task is a one time task and it has been completed 
 			if (Task.OneTime && CompletedTasks.Contains(Task.TaskKey)) {
 
-				return;
+				
 				
 			}
 			else {

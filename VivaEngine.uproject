@@ -248,10 +248,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "MultiDrawSupport",
-			"Enabled": true
-		},
-		{
 			"Name": "ScriptableToolsEditorMode",
 			"Enabled": true
 		},
