@@ -23436,6 +23436,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/GameFeatures/VivaPianta/VivaPinata.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/GardenTerrain/GardenTerrain.uplugin",
 			"Type": "UFS"
 		},
@@ -23449,6 +23453,10 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/TerrainPlugin_1/TerrainPlugin_1.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/VE_Area/VE_Area.uplugin",
 			"Type": "UFS"
 		},
 		{
