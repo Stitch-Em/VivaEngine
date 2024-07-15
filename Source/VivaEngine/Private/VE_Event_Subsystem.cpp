@@ -137,6 +137,10 @@ void UVE_Event_Subsystem::RemoveEvent(FVE_CEvent Event, bool All)
 		}
 	}
 
+	//We now want to check if changing the event map causes any tasks to become incomplete.
+
+	CheckTask();
+
 	return;
 
 }
@@ -158,22 +162,32 @@ void UVE_Event_Subsystem::RemoveAllEventsWithEventKeySubstring(FString Substring
 	return;
 }
 
+void UVE_Event_Subsystem::AddTask(FVE_CTask Task)
+{
+	//Check to see if the task being added already exists.
+
+	if(!Tasks.Contains(Task.TaskKey)){
+		Tasks.Add(Task);
+	}
+	
+}
+
 void UVE_Event_Subsystem::RemoveAllTaskWithEventKeySubstring(FString Substring)
 {
 	int num = 0;
 	TArray <FVE_CTask> TasksCopy = Tasks;
 	for (FVE_CTask Task : TasksCopy)
 	{
-		num++;
 		FName EventKey = Task.EventKey;
 		FString EventKeyString = EventKey.ToString();
 
 		if (EventKeyString.Contains(Substring)) {
-			//RemoveFromCOmpleatedTasks
+			//RemoveFromCompletedTasks
 			CompletedTasks.Remove(Task.TaskKey);
 			//RemoveFromTasks
 			Tasks.RemoveAt(num);
 		}
+		num++;
 	}
 	TasksCopy.Empty();
 	return;

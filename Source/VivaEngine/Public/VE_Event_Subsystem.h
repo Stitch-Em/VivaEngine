@@ -72,7 +72,7 @@ class VIVAENGINE_API UVE_Event_Subsystem : public UGameInstanceSubsystem
 	
 private:
 
-	//Update the Compleated Task
+	//Update the Completed Task
 	void CheckTask();
 
 
@@ -119,7 +119,7 @@ public:
 	bool IsTaskCompleted(FVE_CTask Task);
 
 	UFUNCTION(BlueprintCallable, Category = "VivaEngine")
-	void AddTask(FVE_CTask Task) { Tasks.Add(Task); };
+	void AddTask(FVE_CTask Task);
 
 	UPROPERTY(BlueprintAssignable, Category = "VivaEngine")
 	FAddedEvent OnAddedEvent;
