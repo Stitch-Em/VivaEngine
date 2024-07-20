@@ -166,7 +166,27 @@ void UVE_Event_Subsystem::AddTask(FVE_CTask Task)
 {
 	//Check to see if the task being added already exists.
 
-	if(!Tasks.Contains(Task.TaskKey)){
+
+	//This If Statement breaks UE5.4 support
+	//'==': no operator found ... 'const ComparisonType' (or there is no acceptable conversion)
+	// The task array is of structs not FNames, not sure why it worked in 5.3
+	
+	//if(!Tasks.Contains(Task.TaskKey)){ 
+
+	//UE 5.4 fix
+	bool Contains = false;
+	for (FVE_CTask Taskfor : Tasks)
+	{
+		FName forTaskKey = Taskfor.TaskKey;
+		FName normTaskKey = Task.TaskKey;
+
+		if (forTaskKey == Task.TaskKey)
+		{
+			Contains = true;
+		}
+	}
+
+	if (!Contains) {
 		Tasks.Add(Task);
 	}
 	

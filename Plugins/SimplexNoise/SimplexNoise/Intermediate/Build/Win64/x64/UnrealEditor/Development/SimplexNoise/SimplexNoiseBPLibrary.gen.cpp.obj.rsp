@@ -1,8 +1,8 @@
 "C:\Users\mag11\Projects\VivaEngine1\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\UnrealEditor\Inc\SimplexNoise\UHT\SimplexNoiseBPLibrary.gen.cpp"
-/FI"C:\Users\mag11\Projects\VivaEngine1\Intermediate\Build\Win64\x64\VivaEngineEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
+/FI"C:\Users\mag11\Projects\VivaEngine1\Intermediate\Build\Win64\x64\VivaEngineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderOldest.h"
 /FI"C:\Users\mag11\Projects\VivaEngine1\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\Definitions.SimplexNoise.h"
-/Yu"C:\Users\mag11\Projects\VivaEngine1\Intermediate\Build\Win64\x64\VivaEngineEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
-/Fp"C:\Users\mag11\Projects\VivaEngine1\Intermediate\Build\Win64\x64\VivaEngineEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.pch"
+/Yu"C:\Users\mag11\Projects\VivaEngine1\Intermediate\Build\Win64\x64\VivaEngineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderOldest.h"
+/Fp"C:\Users\mag11\Projects\VivaEngine1\Intermediate\Build\Win64\x64\VivaEngineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderOldest.h.pch"
 /Fo"C:\Users\mag11\Projects\VivaEngine1\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\SimplexNoiseBPLibrary.gen.cpp.obj"
 /sourceDependencies "C:\Users\mag11\Projects\VivaEngine1\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\SimplexNoiseBPLibrary.gen.cpp.dep.json"
 @"C:\Users\mag11\Projects\VivaEngine1\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\SimplexNoise.Shared.rsp"
@@ -24,6 +24,7 @@
 /D_WINDLL
 /D_DISABLE_EXTENDED_ALIGNED_STORAGE
 /Ob2
+/d2ExtendedWarningInfo
 /Ox
 /Ot
 /GF

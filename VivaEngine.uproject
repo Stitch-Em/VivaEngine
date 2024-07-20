@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -258,14 +258,14 @@
 		{
 			"Name": "BlueprintFileUtils",
 			"Enabled": true
+		},
+		{
+			"Name": "MultiDrawSupport",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
 		"Windows",
-		"Android",
-		"HoloLens",
-		"Mac",
-		"IOS",
-		"Linux"
+		"HoloLens"
 	]
 }
