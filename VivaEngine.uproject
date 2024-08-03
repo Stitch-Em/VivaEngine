@@ -258,6 +258,10 @@
 		{
 			"Name": "BlueprintFileUtils",
 			"Enabled": true
+		},
+		{
+			"Name": "MultiDrawSupport",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
