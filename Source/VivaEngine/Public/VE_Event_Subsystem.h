@@ -13,6 +13,28 @@
  * 
  */
 
+UENUM(BlueprintType)
+enum EVE_ObjectType
+{
+	None,
+	Seed UMETA(ToolTip = "Something that inpegnates the ground"),
+	Fruit UMETA(ToolTip = "Useless Gay Rotting piece of shit"),
+	Rubbish UMETA(ToolTip = "The rarest and bestest item in this shitty game"),
+	Veggie UMETA(ToolTip = "Usless Non-Gay Rotting piece of shit"),
+	FlowerHead UMETA(ToolTip = "Otherwise known as your mom!"),
+	Produce UMETA(ToolTip = "The transgenders of consumable items"),
+	Coinage UMETA(ToolTip = "Something that you will never have..."),
+	Tile UMETA(ToolTip = "Step on me harder daddy =P"),
+	Candy UMETA(ToolTip = "The mouth candy, not the nose one"),
+	Decor UMETA(ToolTip = "Do I REALLY need to explain what this is?"),
+	Building UMETA(ToolTip = "Come inside me daddy =P"),
+	Fence UMETA(ToolTip = "Only borderline ofFENCEive"),
+	Egg UMETA(ToolTip = "Kakyoin, did you lay this egg?"),
+	Toy UMETA(ToolTip = "0_O that's kinky"),
+	Plant UMETA(ToolTip = "The lovechild the impregnated ground gives birth to"),
+	Animal UMETA(ToolTip = "A Papery fleshed animal that has sex"),
+};
+
 
 USTRUCT(BlueprintType)
 struct FVE_CEvent_Storage {
@@ -31,9 +53,6 @@ struct FVE_CEvent_Storage {
 	TSubclassOf<UUserWidget> WidgetClass;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TSubclassOf<UObject> Object;
-	;
-
-
 };
 
 USTRUCT(BlueprintType)
@@ -43,6 +62,8 @@ struct FVE_CEvent {
 	FName Key;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVE_CEvent_Storage Storage;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	TEnumAsByte<EVE_ObjectType> ObjectType;
 };
 
 USTRUCT(BlueprintType)
@@ -54,9 +75,29 @@ struct FVE_CTask {
 	int TriggerTimes;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FName TaskKey;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	TEnumAsByte<EVE_ObjectType> ItemObjectType;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool OneTime;
 };
+
+USTRUCT(BlueprintType)
+struct FVE_EventMapDetails {
+	GENERATED_BODY()
+	int TimesTriggered;
+	TEnumAsByte<EVE_ObjectType> ItemType;
+
+	FVE_EventMapDetails() {
+		TimesTriggered = 0;
+		ItemType = None;
+	}
+
+	FVE_EventMapDetails(int timesTriggered, EVE_ObjectType itemType) {
+		TimesTriggered = timesTriggered;
+		ItemType = itemType;
+	}
+};
+
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FAddedEvent, FVE_CEvent, Event);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FDOnetimeEvent, FVE_CEvent, Event);
@@ -80,7 +121,7 @@ public:
 
 	//Used to Store The Number of times a event has been called By The Event Key
 	UPROPERTY(BlueprintReadOnly, Category = "VivaEngine")
-	TMap<FName, int> EventMap;
+	TMap<FName, FVE_EventMapDetails> EventMap;
 
 	//Used to Store The Event Storage By The Event Key
 	UPROPERTY(BlueprintReadOnly, Category = "VivaEngine")
