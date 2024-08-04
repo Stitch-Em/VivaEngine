@@ -31,7 +31,7 @@
 		},
 		{
 			"Name": "MultiDraw",
-			"Enabled": false,
+			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/657c763ab2e244edbcca955eb81d8377"
 		},
 		{

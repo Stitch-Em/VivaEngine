@@ -62,7 +62,7 @@ struct FVE_CEvent {
 	FName Key;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVE_CEvent_Storage Storage;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TEnumAsByte<EVE_ObjectType> ObjectType;
 };
 
@@ -75,7 +75,7 @@ struct FVE_CTask {
 	int TriggerTimes;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FName TaskKey;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TEnumAsByte<EVE_ObjectType> ItemObjectType;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool OneTime;
