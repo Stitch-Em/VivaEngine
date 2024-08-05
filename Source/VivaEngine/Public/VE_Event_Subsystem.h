@@ -116,6 +116,9 @@ private:
 	//Update the Completed Task
 	void CheckTask();
 
+	TArray<FString> TaskTypes = TArray<FString>{ "In Garden", "NOT In Garden", 
+		"Eaten", "Won Fight", "Lost Fight", "Wearing Acessory", 
+		"Pinometer Count", "Joy Status", "Garden Value"};
 
 public:
 

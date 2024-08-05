@@ -50,8 +50,8 @@ void UVE_Event_Subsystem::OnIncompletedTaskCalled(FVE_CTask Task)
 
 void UVE_Event_Subsystem::CheckTask()
 {
-	TArray<FVE_EventMapDetails> AllEventMapDetails;
-	EventMap.GenerateValueArray(AllEventMapDetails);
+	TArray<FName> AllEventMapNames;
+	EventMap.GenerateKeyArray(AllEventMapNames);
 
 	//For each task in the task array
 	for (FVE_CTask Task : Tasks) {
@@ -79,8 +79,18 @@ void UVE_Event_Subsystem::CheckTask()
 		case true:
 			int NumberOfMatchingItemTypes = 0;
 
-			for (FVE_EventMapDetails Details : AllEventMapDetails) {
-				if (Details.ItemType == Task.ItemObjectType) NumberOfMatchingItemTypes++;
+			for (FName eventKey : AllEventMapNames) {
+				//To check whether it's any normal item or any ROTTING item
+				bool rotStatusMatches = (eventKey.ToString().Contains("Rotten", ESearchCase::IgnoreCase, ESearchDir::FromStart) == Task.EventKey.ToString().Contains("Rotten", ESearchCase::IgnoreCase, ESearchDir::FromStart));
+				
+				if (EventMap.Find(eventKey)->ItemType == Task.ItemObjectType && rotStatusMatches) {
+					for (FString TaskType : TaskTypes) {
+						if (Task.TaskKey.ToString().Contains(TaskType) && eventKey.ToString().Contains(TaskType)) {
+							NumberOfMatchingItemTypes = NumberOfMatchingItemTypes + EventMap.Find(eventKey)->TimesTriggered;
+							break;
+						}
+					}
+				}
 			}
 
 			if (NumberOfMatchingItemTypes >= Task.TriggerTimes) {
