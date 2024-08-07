@@ -1,0 +1,37 @@
+{
+    "TimeLimit": 0,
+    "Tracks": [
+        {
+            "nodes": [
+                {
+                    "x": -300,
+                    "y": 500,
+                    "z": 500
+                },
+                {
+                    "x": -300,
+                    "y": 0,
+                    "z": 500
+                }
+            ],
+            "speed": 500
+        }
+    ],
+    "Objects": [
+        {
+            "objectType": "RedBomb",
+            "position": {
+                "x": 200,
+                "y": 800,
+                "z": 500
+            },
+            "rotation": {
+                "pitch": 0,
+                "yaw": 0,
+                "roll": 0
+            },
+            "isInvisible": false,
+            "trackNum": 0
+        }
+    ]
+}

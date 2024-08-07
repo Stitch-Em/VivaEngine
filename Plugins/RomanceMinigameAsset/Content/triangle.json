@@ -1,0 +1,59 @@
+{
+    "TimeLimit": 0,
+    "Tracks": [
+        {
+            "nodes": [
+                {
+                    "x": 300,
+                    "y": 0,
+                    "z": 500
+                },
+                {
+                    "x": -400,
+                    "y": -500,
+                    "z": 500
+                },
+                {
+                    "x": -400,
+                    "y": 500,
+                    "z": 500
+                }
+            ],
+            "speed": 500
+        }
+    ],
+    "Objects": [
+        {
+            "objectType": "RedBomb",
+            "position": {
+                "x": 700,
+                "y": 0,
+                "z": 500
+            },
+            "rotation": {
+                "pitch": 0,
+                "yaw": 0,
+                "roll": 0
+            },
+            "isInvisible": false,
+            "trackNum": 0,
+            "startNode": 0
+        },
+        {
+            "objectType": "Spawner",
+            "position": {
+                "x": -200,
+                "y": 0,
+                "z": 500
+            },
+            "rotation": {
+                "pitch": 0,
+                "yaw": 0,
+                "roll": 0
+            },
+            "isInvisible": false,
+            "trackNum": -1,
+            "startNode": 0
+        }
+    ]
+}
