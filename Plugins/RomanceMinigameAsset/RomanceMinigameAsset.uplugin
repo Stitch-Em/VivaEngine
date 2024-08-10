@@ -46,6 +46,14 @@
 		{
 			"Name": "GardenTerrain",
 			"Enabled": true
+		},
+		{
+			"Name": "TerrainPlugin_1",
+			"Enabled": true
+		},
+		{
+			"Name": "MultiDrawSupport",
+			"Enabled": true
 		}
 	]
 }
