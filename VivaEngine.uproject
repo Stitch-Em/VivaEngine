@@ -31,7 +31,7 @@
 		},
 		{
 			"Name": "MultiDraw",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/657c763ab2e244edbcca955eb81d8377"
 		},
 		{
@@ -45,11 +45,6 @@
 		{
 			"Name": "Dataflow",
 			"Enabled": false
-		},
-		{
-			"Name": "ReturnToParadise",
-			"Enabled": true,
-			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
 		},
 		{
 			"Name": "N10XSourceCodeAccess",
@@ -260,10 +255,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "MultiDrawSupport",
-			"Enabled": true
-		},
-		{
 			"Name": "EasyFileDialog",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/bcf64fe2e00c48189d8385a9c39b6e61"
@@ -271,6 +262,11 @@
 		{
 			"Name": "UdpMessaging",
 			"Enabled": false
+		},
+		{
+			"Name": "ReturnToParadise",
+			"Enabled": true,
+			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
 		}
 	],
 	"TargetPlatforms": [
