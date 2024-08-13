@@ -159,7 +159,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "VivaEngine")
 	int GetEvent(FVE_CEvent Event);
 
-	UFUNCTION(BlueprintCallable, Category = "VivaEngine")
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "VivaEngine")
 	bool IsTaskCompleted(FVE_CTask Task);
 
 	UFUNCTION(BlueprintCallable, Category = "VivaEngine")

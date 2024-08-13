@@ -2714,6 +2714,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/EasyFileDialog/Binaries/Win64/UnrealEditor-EasyFileDialog.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/EasyFileDialog/Binaries/Win64/UnrealEditor-EasyFileDialog.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/EasyFileDialog/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/FileSDK/Binaries/Win64/UnrealEditor-FileSDK.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -2723,18 +2735,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/FileSDK/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MultiDraw/Binaries/Win64/UnrealEditor-MultiDraw.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MultiDraw/Binaries/Win64/UnrealEditor-MultiDraw.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MultiDraw/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2831,14 +2831,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Messaging/TcpMessaging/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Messaging/UdpMessaging/Binaries/Win64/UnrealEditor-UdpMessaging.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Messaging/UdpMessaging/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -3491,6 +3483,38 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/GardenTerrain/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RomanceMinigameAsset/Binaries/Win64/UnrealEditor-RomanceMinigameAsset.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RomanceMinigameAsset/Binaries/Win64/UnrealEditor-RomanceMinigameAsset.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RomanceMinigameAsset/Binaries/Win64/UnrealEditor-RomanceMinigameAssetRuntime.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RomanceMinigameAsset/Binaries/Win64/UnrealEditor-RomanceMinigameAssetRuntime.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RomanceMinigameAsset/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RuntimeArchiver/Binaries/Win64/UnrealEditor-RuntimeArchiver.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RuntimeArchiver/Binaries/Win64/UnrealEditor-RuntimeArchiver.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RuntimeArchiver/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -25116,11 +25140,11 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/FileSDK/FileSDK.uplugin",
+			"Path": "$(EngineDir)/Plugins/Marketplace/EasyFileDialog/EasyFileDialog.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MultiDraw/MultiDraw.uplugin",
+			"Path": "$(EngineDir)/Plugins/Marketplace/FileSDK/FileSDK.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -25149,10 +25173,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -25372,10 +25392,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/GameFeatures/MultiDrawSupport/MultiDrawSupport.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/GameFeatures/ReturnToParadise/ReturnToParadise.uplugin",
 			"Type": "UFS"
 		},
@@ -25385,6 +25401,14 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/RTP_Editor_Tools/RTP_Editor_Tools.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RomanceMinigameAsset/RomanceMinigameAsset.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RuntimeArchiver/RuntimeArchiver.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -25452,6 +25476,7 @@
 		"DataRegistry",
 		"DataValidation",
 		"Dataflow",
+		"EasyFileDialog",
 		"EditorDebugTools",
 		"EditorScriptingUtilities",
 		"EngineAssetDefinitions",
@@ -25502,8 +25527,6 @@
 		"MobilePatchingUtils",
 		"ModelingToolsEditorMode",
 		"ModularGameplay",
-		"MultiDraw",
-		"MultiDrawSupport",
 		"Niagara",
 		"NiagaraSimCaching",
 		"NullSourceCodeAccess",
@@ -25533,6 +25556,8 @@
 		"ResonanceAudio",
 		"ReturnToParadise",
 		"RigVM",
+		"RomanceMinigameAsset",
+		"RuntimeArchiver",
 		"ScriptableToolsEditorMode",
 		"ScriptableToolsFramework",
 		"SequencerAnimTools",
@@ -25556,7 +25581,6 @@
 		"TraceUtilities",
 		"UObjectPlugin",
 		"UVEditor",
-		"UdpMessaging",
 		"VE_Area",
 		"VE_Coins",
 		"VariantManager",
