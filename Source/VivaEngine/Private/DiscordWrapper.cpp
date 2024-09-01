@@ -13,6 +13,9 @@ UDiscordWrapper::UDiscordWrapper()
 
 void UDiscordWrapper::SetDiscordActivity(FString State, FString Details, FString LargeImageName)
 {
+	//Disabled discord for 1.5
+	return;
+
 	// Make sure Discord is not required
 	// We will need to hide this Token ID in something later
 	auto result = discord::Core::Create(1030046546768711720, DiscordCreateFlags_NoRequireDiscord, &core);
@@ -44,6 +47,9 @@ void UDiscordWrapper::SetDiscordActivity(FString State, FString Details, FString
 
 void UDiscordWrapper::ClearDiscordActivity()
 {
+	//Disabled discord for 1.5
+	return;
+
 	auto result = discord::Core::Create(1030046546768711720, DiscordCreateFlags_NoRequireDiscord, &core);
 
 	core->ActivityManager().ClearActivity([](discord::Result result)
@@ -57,6 +63,9 @@ void UDiscordWrapper::ClearDiscordActivity()
 void UDiscordWrapper::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//Disabled discord for 1.5
+	return;
 }
 
 
@@ -65,7 +74,10 @@ void UDiscordWrapper::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	//Disabled discord for 1.5
+	return;
+
 	// Required every tick (Per Discord SDK Docs)
-	::core->RunCallbacks();
+	//::core->RunCallbacks();
 }
 
