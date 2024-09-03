@@ -232,6 +232,7 @@ void UVE_Event_Subsystem::AddTask(FVE_CTask Task)
 
 	if (!Contains) {
 		Tasks.Add(Task);
+		CheckTask();
 	}
 	
 }
