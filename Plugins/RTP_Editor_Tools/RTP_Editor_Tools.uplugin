@@ -18,6 +18,18 @@
 		{
 			"Name": "ReturnToParadise",
 			"Enabled": true
+		},
+		{
+			"Name": "TerrainPlugin_1",
+			"Enabled": true
+		},
+		{
+			"Name": "GardenTerrain",
+			"Enabled": true
+		},
+		{
+			"Name": "VE_Area",
+			"Enabled": true
 		}
 	]
 }

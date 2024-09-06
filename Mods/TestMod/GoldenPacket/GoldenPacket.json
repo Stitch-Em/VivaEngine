@@ -8,9 +8,9 @@
     "falloff": 0,
     "uV": 2,
     "channelColor": {
-      "r": 0,
-      "g": 0,
-      "b": 0,
+      "r": 0.5,
+      "g": 0.1,
+      "b": 1,
       "a": 1
     },
     "extras": {

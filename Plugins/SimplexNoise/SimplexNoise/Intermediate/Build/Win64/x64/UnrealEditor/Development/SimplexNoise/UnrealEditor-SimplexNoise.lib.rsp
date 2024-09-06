@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SimplexNoise.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Owner\Documents\Unreal Projects\VivaEngine\Intermediate\Build\Win64\x64\VivaEngineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderOldest.h.obj"
+"C:\Users\Owner\Documents\Unreal Projects\VivaEngine\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\Module.SimplexNoise.cpp.obj"
+"C:\Users\Owner\Documents\Unreal Projects\VivaEngine\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\Default.rc2.res"
+/OUT:"C:\Users\Owner\Documents\Unreal Projects\VivaEngine\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\UnrealEditor-SimplexNoise.lib"

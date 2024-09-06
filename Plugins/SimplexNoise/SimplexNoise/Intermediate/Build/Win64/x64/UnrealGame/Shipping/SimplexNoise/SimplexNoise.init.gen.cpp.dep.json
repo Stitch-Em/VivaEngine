@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\mag11\\projects\\vivaengine1\\plugins\\simplexnoise\\simplexnoise\\intermediate\\build\\win64\\unrealgame\\inc\\simplexnoise\\uht\\simplexnoise.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\mag11\\projects\\vivaengine1\\intermediate\\build\\win64\\x64\\vivaengine\\shipping\\engine\\sharedpch.engine.project.novalfmtstr.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\mag11\\projects\\vivaengine1\\plugins\\simplexnoise\\simplexnoise\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\simplexnoise\\definitions.simplexnoise.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

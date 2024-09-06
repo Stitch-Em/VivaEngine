@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SimplexNoise.cpp.obj": [
+			"SimplexNoise.init.gen.cpp.obj",
+			"SimplexNoiseBPLibrary.gen.cpp.obj",
+			"SimplexNoiseBPLibrary.cpp.obj",
+			"SimplexNoiseModule.cpp.obj"
+		]
+	}
+}

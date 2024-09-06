@@ -1,0 +1,8 @@
+{
+	"BuildId": "33043543",
+	"Modules": 
+	{
+		"GardenTerrain": "UnrealEditor-GardenTerrain.dll",
+		"GardenTerrainRuntime": "UnrealEditor-GardenTerrainRuntime.dll"
+	}
+}
