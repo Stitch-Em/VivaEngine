@@ -3,7 +3,7 @@ Plugins/GameFeatures/ReturnToParadise
 Plugins/GameFeatures/VivaPinata
 !Plugins/GameFeatures/VE_ModSupport/*
 Releases/*
-!Plugins/*/Binaries/*
+
 
 # Random Files
 UpgradeLog.htm
@@ -37,9 +37,6 @@ UpgradeLog.htm
 SourceArt/**/*.png
 SourceArt/**/*.tga
 
-# Binary Files
-
-
 
 # Builds
 Build/*
@@ -72,14 +69,6 @@ Plugins/GameFeatures/VivaPianta/
 Platforms/
 Plugins/MultiDraw/Binaries/Win64/UnrealEditor-MultiDraw.dll
 Plugins/MultiDraw/Binaries/Win64/UnrealEditor.modules
-Plugins/SimpleUGC/Binaries/Win64/UnrealEditor-SimpleUGC.dll
-Plugins/SimpleUGC/Binaries/Win64/UnrealEditor-SimpleUGCEditor.dll
-Plugins/SimpleUGC/Binaries/Win64/UnrealEditor.modules
-Plugins/gFurPro-5.2/Binaries/Win64/UnrealEditor-GFur.dll
-Plugins/gFurPro-5.2/Binaries/Win64/UnrealEditor-GFurEditor.dll
-Plugins/gFurPro-5.2/Binaries/Win64/UnrealEditor.modules
-Plugins/ModIO/Binaries/Win64/UnrealEditor-MSDFSupport.dll
-Plugins/ModIO/Binaries/Win64/UnrealEditor-MSDFSupportEditor.dll
 Binaries/Win64/D3D12/D3D12Core.dll
 Binaries/Win64/OpenImageDenoise.dll
 Binaries/Win64/tbb.dll
@@ -89,5 +78,4 @@ Binaries/Win64/VivaEngine-Win64-Shipping.exe
 Binaries/Win64/VivaEngine-Win64-Shipping.exp
 Binaries/Win64/VivaEngine-Win64-Shipping.lib
 Binaries/Win64/VivaEngine-Win64-Shipping.target
-VivaEngine.uproject
-VivaEngine.uproject
+
