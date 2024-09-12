@@ -11,8 +11,8 @@
 	{
 		"MajorVersion": 5,
 		"MinorVersion": 4,
-		"PatchVersion": 3,
-		"Changelist": 34507850,
+		"PatchVersion": 4,
+		"Changelist": 35576357,
 		"CompatibleChangelist": 33043543,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
@@ -100,14 +100,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/AdvancedSteamSessions/AdvancedSteamSessions.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/GameFeatures/AutoSettingsSupport/AutoSettingsSupport.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/GameFeatures/MultiDrawSupport/MultiDrawSupport.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -3279,19 +3271,11 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/AutoSettings/AutoSettings.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/EasyFileDialog/EasyFileDialog.uplugin",
 			"Type": "UFS"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/FileSDK/FileSDK.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MultiDraw/MultiDraw.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -3531,8 +3515,6 @@
 		"AudioCapture",
 		"AudioSynesthesia",
 		"AudioWidgets",
-		"AutoSettings",
-		"AutoSettingsSupport",
 		"AutomationUtils",
 		"BlendSpaceMotionAnalysis",
 		"BlueprintFileUtils",
@@ -3607,8 +3589,6 @@
 		"MobileLauncherProfileWizard",
 		"MobilePatchingUtils",
 		"ModularGameplay",
-		"MultiDraw",
-		"MultiDrawSupport",
 		"Niagara",
 		"NiagaraSimCaching",
 		"NullSourceCodeAccess",
