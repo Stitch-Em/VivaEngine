@@ -3,6 +3,7 @@ Plugins/GameFeatures/ReturnToParadise
 Plugins/GameFeatures/VivaPinata
 !Plugins/GameFeatures/VE_ModSupport/*
 Releases/*
+!Plugins/*/Binaries/*
 
 # Random Files
 UpgradeLog.htm
