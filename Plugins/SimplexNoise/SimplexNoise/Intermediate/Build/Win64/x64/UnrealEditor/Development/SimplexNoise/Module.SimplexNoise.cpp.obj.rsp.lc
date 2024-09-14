@@ -3,8 +3,8 @@
 /FI"C:\Users\mag11\Projects\VivaEngine1\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\Definitions.SimplexNoise.h"
 /Yu"C:\Users\mag11\Projects\VivaEngine1\Intermediate\Build\Win64\x64\VivaEngineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderOldest.h"
 /Fp"C:\Users\mag11\Projects\VivaEngine1\Intermediate\Build\Win64\x64\VivaEngineEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NoValFmtStr.ValApi.Cpp20.InclOrderOldest.h.pch"
-/Fo"C:\Users\mag11\Projects\VivaEngine1\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\Module.SimplexNoise.cpp.obj"
-/sourceDependencies "C:\Users\mag11\Projects\VivaEngine1\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\Module.SimplexNoise.cpp.dep.json"
+/Fo"C:\Users\mag11\Projects\VivaEngine1\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\Module.SimplexNoise.cpp.lc.obj"
+/sourceDependencies"C:\Users\mag11\Projects\VivaEngine1\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\Module.SimplexNoise.cpp.dep.lc.json"
 @"C:\Users\mag11\Projects\VivaEngine1\Plugins\SimplexNoise\SimplexNoise\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimplexNoise\SimplexNoise.Shared.rsp"
 /Zc:inline
 /nologo
