@@ -267,14 +267,6 @@
 			"Name": "ReturnToParadise",
 			"Enabled": true,
 			"MarketplaceURL": "https://discord.gg/6zBpKB4bza"
-		},
-		{
-			"Name": "MultiDrawSupport",
-			"Enabled": true
-		},
-		{
-			"Name": "AutoSettingsSupport",
-			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
