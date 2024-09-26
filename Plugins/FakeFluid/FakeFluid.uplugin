@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "FakeFluid",
+	"Description": "A fake fluid shader.",
+	"Category": "Other",
+	"CreatedBy": "EvenZHAng",
+	"CreatedByURL": "https://evenzhang.gumroad.com/l/KkVHw",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "HDRIBackdrop",
+			"Enabled": true
+		}
+	]
+}
