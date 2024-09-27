@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "HashSHA256",
+	"Description": "Provides SHA256 functions.",
+	"Category": "Other",
+	"CreatedBy": "Blue Mountains GmbH",
+	"CreatedByURL": "https://bluemountains.io/",
+	"DocsURL": "https://github.com/BlueMountainsIO/ue-plugin-sha256",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1942cf125bcd4be5bdd8a206394adcee",
+	"SupportURL": "https://github.com/BlueMountainsIO/ue-plugin-sha256",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "HashSHA256",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		}
+	]
+}
