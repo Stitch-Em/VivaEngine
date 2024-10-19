@@ -2714,30 +2714,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/EasyFileDialog/Binaries/Win64/UnrealEditor-EasyFileDialog.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/EasyFileDialog/Binaries/Win64/UnrealEditor-EasyFileDialog.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/EasyFileDialog/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/FileSDK/Binaries/Win64/UnrealEditor-FileSDK.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/FileSDK/Binaries/Win64/UnrealEditor-FileSDK.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/FileSDK/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Media/ImgMedia/Binaries/Win64/UnrealEditor-ExrReaderGpu.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3114,6 +3090,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/HDRIBackdrop/Binaries/Win64/UnrealEditor-HDRIBackdrop.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/HDRIBackdrop/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/InputDebugging/Binaries/Win64/UnrealEditor-InputDebugging.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3466,6 +3450,30 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/EasyFileDialog/Binaries/Win64/UnrealEditor-EasyFileDialog.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/EasyFileDialog/Binaries/Win64/UnrealEditor-EasyFileDialog.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/EasyFileDialog/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FileSDK/Binaries/Win64/UnrealEditor-FileSDK.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FileSDK/Binaries/Win64/UnrealEditor-FileSDK.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FileSDK/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/GardenTerrain/Binaries/Win64/UnrealEditor-GardenTerrain.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3515,6 +3523,18 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/RuntimeArchiver/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SHA256HashFunctions/Binaries/Win64/UnrealEditor-HashSHA256.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SHA256HashFunctions/Binaries/Win64/UnrealEditor-HashSHA256.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SHA256HashFunctions/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -25140,14 +25160,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/EasyFileDialog/EasyFileDialog.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/FileSDK/FileSDK.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Media/ImgMedia/ImgMedia.uplugin",
 			"Type": "UFS"
 		},
@@ -25284,6 +25296,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/HDRIBackdrop/HDRIBackdrop.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/InputDebugging/InputDebugging.uplugin",
 			"Type": "UFS"
 		},
@@ -25392,6 +25408,18 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/EasyFileDialog/EasyFileDialog.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FakeFluid/FakeFluid.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/FileSDK/FileSDK.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/GameFeatures/ReturnToParadise/ReturnToParadise.uplugin",
 			"Type": "UFS"
 		},
@@ -25409,6 +25437,10 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/RuntimeArchiver/RuntimeArchiver.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SHA256HashFunctions/HashSHA256.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -25484,6 +25516,7 @@
 		"EnvironmentQueryEditor",
 		"ExampleDeviceProfileSelector",
 		"FacialAnimation",
+		"FakeFluid",
 		"FastBuildController",
 		"FileSDK",
 		"Fracture",
@@ -25499,6 +25532,8 @@
 		"GeometryProcessing",
 		"GeometryScripting",
 		"GitSourceControl",
+		"HDRIBackdrop",
+		"HashSHA256",
 		"IKRig",
 		"ImgMedia",
 		"ImpostorBaker",
