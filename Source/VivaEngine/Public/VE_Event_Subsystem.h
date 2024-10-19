@@ -84,7 +84,9 @@ struct FVE_CTask {
 USTRUCT(BlueprintType)
 struct FVE_EventMapDetails {
 	GENERATED_BODY()
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	int TimesTriggered;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TEnumAsByte<EVE_ObjectType> ItemType;
 
 	FVE_EventMapDetails() {
@@ -157,7 +159,7 @@ public:
 	void BindAll();
 
 	UFUNCTION(BlueprintCallable, Category = "VivaEngine")
-	int GetEvent(FVE_CEvent Event);
+	void GetEventDetails(FVE_CEvent Event, FVE_EventMapDetails& Details, bool& IsValid);
 
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "VivaEngine")
 	bool IsTaskCompleted(FVE_CTask Task);

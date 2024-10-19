@@ -11,13 +11,15 @@ void UVE_Event_Subsystem::BindAll()
 	OnIncompletedTask.AddUniqueDynamic(this, &UVE_Event_Subsystem::OnIncompletedTaskCalled);
 }
 
-int UVE_Event_Subsystem::GetEvent(FVE_CEvent Event)
+void UVE_Event_Subsystem::GetEventDetails(FVE_CEvent Event, FVE_EventMapDetails& Details, bool& IsValid)
 {
-	if (EventMap.Find(Event.Key)) {
-		return EventMap.Find(Event.Key)->TimesTriggered;
+	IsValid = (EventMap.Find(Event.Key) != nullptr);
+
+	if (IsValid) {
+		Details = *EventMap.Find(Event.Key);
 	}
 	else {
-		return 0;
+		Details = FVE_EventMapDetails();
 	}
 }
 
